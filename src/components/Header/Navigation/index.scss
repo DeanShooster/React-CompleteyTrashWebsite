@@ -1,0 +1,35 @@
+@import '../../../styles/global.scss';
+
+$top-header-gap: 6rem;
+
+.navigation-container{
+    display: flex; gap: 3rem;
+
+    @media(max-width: $ipad){
+        position: fixed; top: $top-header-gap; right: 50%; transform: translateX(50%);
+        flex-flow: column; gap: .5rem;
+        width: 100%; 
+        animation: slide-left .35s linear;
+        background-color: $background-theme;
+    }
+
+    .link-container{
+        display: flex; flex-flow: column; align-items: center;
+
+        a{
+            text-decoration: none; font-weight: bold; font-size: 1.15rem; white-space: nowrap;
+            color: $main-color;
+        }
+
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.1) skewX(7deg);
+            transition: .4s;
+        }
+    }
+}
+
+@keyframes slide-left{
+    0%{ top: $top-header-gap; right: -20%; }
+    100%{top: $top-header-gap; right: 50%;}
+}

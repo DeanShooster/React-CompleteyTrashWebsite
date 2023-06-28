@@ -1,0 +1,21 @@
+@import './styles/global.scss';
+
+body{
+  margin: 0;
+  background-color: $background-theme;
+  color: $main-color;
+  overflow-x: hidden;
+  font-family: $main-font;
+}
+
+.body{
+  position: relative;
+  height: 100vh;
+  display: flex; flex-direction:column;
+}
+
+// Scroll bar
+::-webkit-scrollbar { width: 12px;}
+::-webkit-scrollbar-track { background: #23292e; }
+::-webkit-scrollbar-thumb {background: #101418; border-radius: 25px;}
+::-webkit-scrollbar-thumb:hover {background: #161b20; }

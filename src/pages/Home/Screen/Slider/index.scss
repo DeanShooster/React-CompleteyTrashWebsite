@@ -1,0 +1,28 @@
+@import '../../../../styles/global.scss';
+
+.slider-frame-wrapper{
+    position: relative;
+    display: flex; justify-content: center;
+    width: 90%; height: 450px;
+    padding: 10px; margin: 0 15px 0 15px;
+    background-color: rgba(0, 0, 0, 0.15); box-shadow: 0 5px 15px black;
+    border-radius: 7px; border: 1px solid rgba(255, 255, 255, 0.15);
+
+    @media(max-width: $mobile){ height: 375px;}
+
+    img{ 
+        width: 100%; height: 100%;
+        filter: brightness(75%);
+    }
+
+    span{
+        position: absolute; bottom: 16px; left: 50%; transform: translate(-50%);
+        font-size: 1.3rem; font-weight: bold; white-space: nowrap; color: $main-orange;
+        text-shadow: 0 0 3px $main-orange; opacity: .75;
+    }
+
+    &:hover{
+        cursor: pointer;
+        transform: scale(.95); transition: .5s;
+    }
+}

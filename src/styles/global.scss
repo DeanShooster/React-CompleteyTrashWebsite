@@ -1,0 +1,26 @@
+@font-face{
+    font-family: Poppins;
+    src: url('../../public/Poppins-Light.ttf') format('trueType');
+}
+
+// Font Theme
+$main-font: 'Poppins';
+
+// Padding Header Fix
+$padding-top-header-fix: 8rem;
+
+// Color Themes
+$main-color: #FFFFFF;
+$background-theme: #0e0e0e;
+$main-orange: #e08821;
+
+// Media
+$ipad: 1250px;
+$mobile: 600px;
+
+// Mixins
+@mixin bright-hover-effect{
+    &:hover{ cursor: pointer; 
+    transform: scale(1.05); transition: .5s; 
+    filter:brightness(150%);}
+}

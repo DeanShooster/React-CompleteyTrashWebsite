@@ -1,0 +1,19 @@
+@import '../../styles/global.scss';
+
+footer{
+    z-index: 1;
+    margin-top: auto; padding: .75rem;
+    background-color: #050505;
+
+    .privacy-policy-container{
+        padding: 10px 0 10px 0;
+        text-align: center;
+
+        span{ color: $main-orange; }
+        
+        a{
+            color: $main-orange;
+            &:hover{ cursor: pointer; color: rgb(138, 83, 17); }
+        }
+    }
+}

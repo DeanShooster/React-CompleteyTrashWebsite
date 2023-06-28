@@ -1,0 +1,8 @@
+@import '../../../styles/global.scss';
+
+.policies-article{
+    padding: 0 1.5rem; margin-bottom: 1rem;
+    display: flex; flex-flow: column; gap: 1.25rem;
+
+    @media(max-width: $mobile){padding: 0 .25rem;}
+}

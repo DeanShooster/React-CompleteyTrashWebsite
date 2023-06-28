@@ -1,0 +1,39 @@
+@import '../../../../styles/global.scss';
+
+.policy-wrapper{
+
+    
+    .sliced-title-wrapper{
+        display: grid;
+        place-content: left;
+        font-size: 3rem; font-weight: 700; text-transform: uppercase;
+
+        @media(max-width: $ipad) {text-align: center;}
+        @media(max-width: $mobile) {font-size: 2rem;}
+
+        div{ grid-area: 1/1/-1/-1; }
+        .top{ clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 100%); }
+        .bottom{
+            clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+            color: transparent;
+            background: linear-gradient(177deg, gray 53%, hsl(0, 0%, 100%) 65%);
+            background-clip: text; -webkit-background-clip: text;
+        }
+    }
+
+    ul{
+        li::marker{ color: $main-orange;}
+        li{ 
+            line-height: 2rem; 
+            @media(max-width: $mobile) {font-size: .8rem;}
+        }
+        
+    }
+    
+    p{
+        margin: 0; font-size: 1.25rem; font-weight: bold;
+
+        @media(max-width: $ipad) {text-align: center;}
+        @media(max-width: $mobile) {font-size: .9rem;}
+    }
+}

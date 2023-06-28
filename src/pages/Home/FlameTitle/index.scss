@@ -1,0 +1,52 @@
+@import '../../../styles/global.scss';
+
+.homepage-title-container{
+    display: flex; justify-content: center; white-space: nowrap;
+
+    .homepage-title{
+        animation-delay: 1s;
+        position: relative;
+        font-size: 3rem; font-weight: bold; text-transform: uppercase; line-height: 1;
+        color: transparent; 
+        animation: scale-up-desk 1.5s ease-in;
+
+        @media(max-width: $mobile){ 
+            font-size: 2rem;
+            animation: scale-up-mobile .75s ease-in;
+        }
+
+        &:focus { outline: none;}
+     }
+    
+    .homepage-title::before, .homepage-title::after {
+        content: attr(data-heading);
+        position: absolute; top: 0; left: 0;	
+        
+    }
+    
+    .homepage-title::before {
+        color: $main-orange;
+        clip-path: polygon(0% 100%, 100% 100%, 100% 40%, 0 60%);
+    }
+    
+    .homepage-title::after {
+        color: $main-orange;
+        clip-path: polygon(0 0, 100% 0%, 100% 36%, 0 56%);
+        animation: slide 5s infinite;
+    }
+}
+
+@keyframes scale-up-desk{
+    0%{font-size: 0;}
+    100%{ font-size: 3rem;}
+}
+@keyframes scale-up-mobile{
+    0%{font-size: 0;}
+    100%{ font-size: 2rem;}
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    50% { transform: translate(2px, 2%); }
+    75%{  transform: translate(-2px, 2%);}
+}

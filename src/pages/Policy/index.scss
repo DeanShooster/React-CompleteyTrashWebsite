@@ -1,0 +1,19 @@
+@import '../../styles/global.scss';
+
+.policy-page{
+    width: 80%;
+    padding-top: $padding-top-header-fix; margin: 0 auto;
+
+    .policy-intro{
+        margin-bottom: 2rem;
+        display: flex; flex-flow: column; gap: 12px;
+        text-align: center;
+        h1{
+            margin: 0;
+            text-align: center; font-size: 3rem; letter-spacing: 3px; text-decoration: underline;
+        }
+
+        p{ margin: 4px 0; }
+    }
+
+}

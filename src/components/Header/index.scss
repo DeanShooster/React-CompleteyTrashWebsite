@@ -1,0 +1,24 @@
+@import '../../styles/global.scss';
+
+header{
+    position: fixed; top: 0; left: 0; z-index: 1000;
+    display: flex; align-items: center; justify-content: center; gap: 3rem;
+    padding: 1rem 0 1rem 0;
+    width: 100%;
+    background-color: $background-theme;
+    box-shadow: 0 5px 15px 0 rgba(17, 17, 17, 0.5);
+
+    @media(max-width: $ipad){
+        justify-content: space-between;
+
+        .burger-menu{
+            margin-right: 1rem;
+
+            &:hover{
+                cursor: pointer;
+                color: $main-orange;
+                transform: rotate(90deg) scale(1.15); transition: .75s;
+            }
+        }
+    }
+}

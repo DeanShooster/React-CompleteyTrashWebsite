@@ -1,0 +1,8 @@
+@import '../../styles/global.scss';
+
+.home-page{
+    position: relative;
+    padding-top: $padding-top-header-fix;
+    width: 100%; height: 100vh;
+    display: flex; flex-flow: column;
+}

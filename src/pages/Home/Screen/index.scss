@@ -1,0 +1,22 @@
+@import '../../../styles/global.scss';
+
+.screen-container{
+    display: flex; justify-content: center; align-items: center; gap: 2rem;
+
+    .frame-wrapper:nth-child(1){
+        height: 275px; width: 325px;
+        transform: skew(0deg,-5deg);
+        @include bright-hover-effect;
+    }
+
+    .frame-wrapper:nth-child(2){
+        height: 350px; width: 400px;
+        @include bright-hover-effect;
+    }
+
+    .frame-wrapper:nth-child(3){
+        height: 275px; width: 325px;
+        transform: skew(0deg,5deg);
+        @include bright-hover-effect;
+    }
+}
