@@ -1,3 +1,10 @@
+
+// Interfaces
+export interface ILink{
+    path: string;
+    text: string;
+}
+
 // Routes
 export const homePage = '/';
 export const newsPage = '/News';
@@ -17,9 +24,3 @@ export const links: ILink[] = [
     { path: recruitmentPage , text: 'Recruitment' },
     { path: aboutPage , text: 'About' },
 ];
-
-// Interfaces
-export interface ILink{
-    path: string;
-    text: string;
-}

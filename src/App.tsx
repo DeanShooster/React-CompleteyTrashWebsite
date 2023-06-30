@@ -8,7 +8,14 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { NoSupport } from './components/NoSupport';
 import { Home } from './pages/Home';
+import { News } from './pages/News';
+import { Records } from './pages/Records';
+import { GamesAndFun } from './pages/GamesAndFun';
+import { Addons } from './pages/Addons';
+import { Recruitment } from './pages/Recruitment';
+import { About } from './pages/About';
 import { Policy } from './pages/Policy';
+import { Page404 } from './pages/Page404';
 
 import './App.scss';
 import { BackgroundBorderLineEffect } from './components/BackgroundBorderLineEffect';
@@ -25,13 +32,14 @@ function App() {
         <Header />
         <Routes>
             <Route path={homePage} element={<Home />}/>
-            <Route path={newsPage} element={null}/>
-            <Route path={recordsPage} element={null}/>
-            <Route path={gameAndFunPage} element={null}/>
-            <Route path={addonsPage} element={null}/>
-            <Route path={recruitmentPage} element={null}/>
-            <Route path={aboutPage} element={null}/>
+            <Route path={newsPage} element={<News />}/>
+            <Route path={recordsPage} element={<Records />}/>
+            <Route path={gameAndFunPage} element={<GamesAndFun />}/>
+            <Route path={addonsPage} element={<Addons />}/>
+            <Route path={recruitmentPage} element={<Recruitment />}/>
+            <Route path={aboutPage} element={<About />}/>
             <Route path={policyPage} element={<Policy />}/>
+            <Route path='*' element={<Page404 />}/>
         </Routes>
         <Footer />
         <BackgroundBorderLineEffect />

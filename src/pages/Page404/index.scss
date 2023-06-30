@@ -1,0 +1,31 @@
+@import '../../styles/global.scss';
+
+.page-404{
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+    display: flex; flex-flow: column; align-items: center; gap: 1rem;
+
+    h1{
+        margin: 0;
+        display: flex; align-items: center; gap: 16px;
+
+        img{ width: 3rem; height: 3rem; }
+        span{ 
+            font-size: 3rem; 
+
+            @media(max-width: $mobile){ font-size: 2rem; }
+        }
+    }
+
+    p{
+        margin: 0;
+        font-size: 1.5rem; text-align: center;
+
+        @media(max-width: $mobile){ font-size: 1rem;}
+    }
+
+    .url-404{ 
+        font-size: 1.75rem; font-weight: bold; letter-spacing: 2px; text-align: center; white-space: nowrap;
+
+        @media(max-width: $mobile) { font-size: 1.25rem;}
+    }
+}

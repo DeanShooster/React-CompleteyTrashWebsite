@@ -17,3 +17,4 @@ export { default as Discord } from './svg/Discord.svg';
 export { default as YouTube } from './svg/YouTube.svg';
 export { default as Reddit } from './svg/Reddit.svg';
 export { default as BurgerMenu } from './svg/BurgerMenu.svg';
+export { default as Poop } from './svg/Poop.svg';
