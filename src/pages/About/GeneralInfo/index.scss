@@ -1,0 +1,9 @@
+@import '../../../styles/global.scss';
+
+.general-info-container{
+    width: 100%;
+    display: flex;
+    background-image: url('../../../assets/images/about-bg.jpg'); background-repeat: no-repeat; background-size: cover;
+
+    @media(max-width: $ipad){ flex-flow: column; align-items: center; }
+}

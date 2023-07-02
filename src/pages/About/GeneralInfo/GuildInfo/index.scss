@@ -1,0 +1,12 @@
+@import '../../../../styles/global.scss';
+
+.guild-info-wrapper{
+    width: 50%; 
+    padding: 10px 0 15px 0; margin: 25px;
+    display: flex; flex-flow: column;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-shadow: 0 2px 1px black;
+
+    @media(max-width: $ipad){ width: 90%; }
+}
