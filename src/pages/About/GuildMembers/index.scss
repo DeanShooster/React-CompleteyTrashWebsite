@@ -1,9 +1,13 @@
-
+@import '../../../styles/global.scss';
 
 .guild-members-container{
     width: 80%;
+    position: relative;
     margin: 0 auto;
     background-image: url('../../../assets/images/theme-bg.png'); background-repeat: no-repeat; background-size: cover;
 
-    h1{ margin: 0 0 25px 0; text-align: center; font-size: 2.5rem; }
+    @media(max-width: $ipad){ width: 90%;}
+    @media(max-width: $mobile){ width: 100%;}
+
+    h1{ margin: 0 0 30px 0; text-align: center; font-size: 2.5rem; }
 }
