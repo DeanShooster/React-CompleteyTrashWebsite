@@ -1,0 +1,22 @@
+@import '../../styles/global.scss';
+
+.recruitment-info-title{
+    margin: 0;
+    font-size: 3rem; white-space: nowrap;
+    background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent); background-clip: text;
+    color: transparent;
+    animation: reveal 3s ease-in-out forwards .2s , glow 4s linear infinite 2s;
+
+    @media(max-width: $ipad)  { text-align: center;}
+    @media(max-width: $mobile)  { 
+        font-size: 2rem;
+        animation: reveal-mobile 2s ease-in-out forwards .2s , glow 4s linear infinite 2s;
+    }
+}
+
+@keyframes reveal {
+    80%{ letter-spacing: 8px; }
+    100% { background-size: 300% 300%;}
+}
+@keyframes reveal-mobile{ 100% { background-size: 100% 100%;} }
+@keyframes glow { 40% { text-shadow: 0 0 3px #fff; } }

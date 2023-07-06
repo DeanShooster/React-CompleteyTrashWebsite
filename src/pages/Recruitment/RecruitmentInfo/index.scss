@@ -1,0 +1,42 @@
+@import '../../../styles/global.scss';
+
+.recruitment-info-container{
+    width: 100%;
+    position: relative;
+
+    .info-container{
+        width: 90%; margin: auto; max-width: 100%;
+
+        @media(max-width: 1250px){ flex-flow: column; }
+        div{
+            position: relative;
+            p{ font-size: 1.15rem;}
+            ul{
+                li{ line-height: 1.75rem; font-size: 1.1rem; }
+                li::marker{ color: $main-orange; font-size: 1.4rem; }
+            }
+        }
+        img{
+            width: 450px;
+            @media(max-width: 1250px){ width: 500px;}
+            @media(max-width: $mobile){ width: 100%;}
+        }
+    }
+
+    .seeking-container{ display: flex; align-items: center; justify-content: space-evenly;}
+    .trial-container{ 
+        display: flex; align-items: center; justify-content: space-evenly;
+        @media(max-width: 1250px){ flex-flow: column-reverse;}
+    }
+    .schedule-contact-container{ 
+        display: flex; align-items: center; justify-content: center;
+        div{
+            text-align: center;
+            ul{list-style: none; padding: 0;}
+            span{
+                font-weight: bold; text-decoration: underline;
+                &:hover{cursor: pointer; color: $main-orange;}
+            }
+        }
+    }
+}

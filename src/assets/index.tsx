@@ -9,6 +9,8 @@ export { default as borderTop } from './images/border-top.png';
 export { default as borderRight } from './images/border-right.png';
 export { default as borderBottom } from './images/border-bottom.png';
 export { default as borderLeft } from './images/border-left.png';
+export { default as Deadeye } from './images/specArt/Deadeye.webp';
+export { default as SpellBreaker } from './images/specArt/Spellbreaker.webp';
 
 // Backgrounds
 export { default as HomePageBG } from './images/homepageBG.jpg';
@@ -16,6 +18,7 @@ export { default as ThemeBG } from './images/theme-bg.png';
 export { default as Screen1 } from './images/homepage-screen1.jpg';
 export { default as Screen2 } from './images/homepage-screen2.jpg';
 export { default as Screen3 } from './images/homepage-screen3.jpg';
+export { default as RecruitmentBG } from './images/recruitment-bg.jpg';
 
 // General SVG
 export { default as Discord } from './svg/Discord.svg';

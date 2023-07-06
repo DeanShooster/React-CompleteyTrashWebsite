@@ -1,0 +1,47 @@
+@import '../../../styles/global.scss';
+
+.recruitment-intro-screen-container{
+    position: relative;
+    height: calc(100vh - $padding-top-header-fix); margin: auto; width: 100%;
+    display: flex; justify-content: center; align-items: center;
+
+    & img{
+        width: 100%; height: 100%;
+        position: absolute; left: 0; top: 0;
+        filter: brightness(80%); object-fit: cover;
+    }
+
+    .recruitment-intro{
+        padding: 25px;
+        z-index: 2;
+        display: flex; flex-flow: column; align-items: center;
+        text-align: center;
+        border-radius: 50px;
+        background-color: rgba(0, 0, 0, 0.75);
+        animation: recruitment-slide-in .5s linear;
+
+        @media(max-width: $ipad){ width: 85%;}
+
+        p{ margin: 0; font-size: 1.15rem; line-height: 2rem; text-shadow: 2px 2px 2px black;}
+
+        .recruit-me{
+            margin-top: 25px; padding: 15px;
+            font-weight: bold; font-size: 1.5rem; text-shadow: 2px 2px 2px black;
+            background-color: $main-orange;
+            border-radius: 50px;
+
+            @media(max-width: $ipad){ font-size: 1.15rem;}
+            
+            &:hover{ 
+                cursor: pointer; 
+                outline: $main-orange 2px solid; background-color: transparent; 
+                transform: scale(1.05); transition: .5s; 
+            }
+        }
+    }
+}
+
+@keyframes recruitment-slide-in{
+    0%{ transform: translateY(-100%); }
+    75%{ transform: translateY(10%);}
+}
