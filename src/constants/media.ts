@@ -1,4 +1,5 @@
 import { Discord, HSLogo, Reddit, SCLogo, Screen1, Screen2, Screen3, YouTube } from "../assets";
+import { IAddonsData, arcDPS, blish, boonTable, clears, healingStats, kpme, logUploader, mechanicLogs } from "../data/addons";
 
 // Interfaces
 export interface IMedia{
@@ -6,6 +7,9 @@ export interface IMedia{
     url: string;
     image: string;
 };
+export interface IAddon extends IMedia{
+    data: IAddonsData
+}
 
 // 3rd Party Media Links
 export const discordLink = 'https://discord.gg/H4ZcUT8dw2';
@@ -30,4 +34,14 @@ export const homePageScreens: IMedia[] = [
 export const homePageOtherWebsites: IMedia[] = [
     { name: 'Snow Crows' , url: snowCrows , image: SCLogo },
     { name: 'Hardstuck' , url: hardStuck , image: HSLogo }
+];
+export const addonLinks: IAddon[] = [
+    { name: 'arcDPS' , url: 'https://www.deltaconnected.com/arcdps' , image: '' , data: arcDPS },
+    { name: 'Boon Table' , url: 'https://github.com/knoxfighter/GW2-ArcDPS-Boon-Table' , image: '',data: boonTable },
+    { name: 'Mechanics Log' , url: 'https://github.com/knoxfighter/GW2-ArcDPS-Mechanics-Log' , image: '',data: mechanicLogs },
+    { name: 'Log Uploader' , url: 'https://github.com/nbarrios/arcdps-uploader' , image: '', data: logUploader },
+    { name: 'Killproof.me' , url: 'https://github.com/knoxfighter/arcdps-killproof.me-plugin' , image: '', data: kpme },
+    { name: 'Clears' , url: '' , image: 'https://github.com/gw2scratch/arcdps-clears', data: clears },
+    { name: 'Healing Stats' , url: 'https://github.com/Krappa322/arcdps_healing_stats' , image: '', data: healingStats },
+    { name: 'Blish' , url: 'https://blishhud.com' , image: '', data: blish}
 ];

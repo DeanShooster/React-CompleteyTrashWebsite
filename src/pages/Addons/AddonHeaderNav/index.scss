@@ -1,0 +1,21 @@
+@import '../../../styles/global.scss';
+
+.addon-nav{
+    padding: 16px;
+    position: fixed; top: calc($padding-top-header-fix - 1.25rem); left: 50%; transform: translateX(-50%);
+    display: flex; gap: 20px;
+    border-bottom-right-radius: 25px; border-bottom-left-radius: 25px;
+    border-bottom: 4px double $main-color; border-right: 4px double $main-color; border-left: 4px double $main-color;
+    background-color: black;
+
+    a{
+        color: $main-color;
+        text-decoration: none; white-space: nowrap;
+        font-weight: bold; font-size: 1.25rem;
+
+        &:hover{
+            color: $main-orange;
+            @include bright-hover-effect;
+        }
+    }
+}

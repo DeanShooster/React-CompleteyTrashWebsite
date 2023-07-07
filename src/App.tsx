@@ -12,6 +12,7 @@ import { News } from './pages/News';
 import { Records } from './pages/Records';
 import { GamesAndFun } from './pages/GamesAndFun';
 import { Addons } from './pages/Addons';
+import { AddonInformation } from './pages/Addons/AddonInformation';
 import { Recruitment } from './pages/Recruitment';
 import { About } from './pages/About';
 import { Policy } from './pages/Policy';
@@ -21,7 +22,7 @@ import './App.scss';
 import { BackgroundBorderLineEffect } from './components/BackgroundBorderLineEffect';
 
 function App() {
-
+  
   const {windowSize} = useWindowSize();
   if(windowSize <= minWidthSupport) return <NoSupport />;
 
@@ -35,7 +36,9 @@ function App() {
             <Route path={newsPage} element={<News />}/>
             <Route path={recordsPage} element={<Records />}/>
             <Route path={gameAndFunPage} element={<GamesAndFun />}/>
-            <Route path={addonsPage} element={<Addons />}/>
+            <Route path={addonsPage} element={<Addons />}>
+                <Route path={`${addonsPage}/:addon`} element={<AddonInformation />}/>
+            </Route>
             <Route path={recruitmentPage} element={<Recruitment />}/>
             <Route path={aboutPage} element={<About />}/>
             <Route path={policyPage} element={<Policy />}/>

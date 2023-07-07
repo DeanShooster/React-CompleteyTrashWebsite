@@ -8,7 +8,7 @@ export const GeneralInfo = () => {
     return (
         <div className='general-info-container'>
             <GuildInfo />
-            <TitleAndVideo />
+            {/* <TitleAndVideo /> */}
         </div>
     );
 }
