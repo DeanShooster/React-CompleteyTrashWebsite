@@ -8,10 +8,19 @@
     border-bottom: 4px double $main-color; border-right: 4px double $main-color; border-left: 4px double $main-color;
     background-color: black;
 
+    @media(max-width: $ipad){
+        width: 90%;
+        padding: 16px 4px 8px 4px;
+        flex-wrap: wrap; justify-content: center;
+    }
+
     a{
         color: $main-color;
         text-decoration: none; white-space: nowrap;
         font-weight: bold; font-size: 1.25rem;
+
+        @media(max-width: $ipad){ font-size: 1rem;}
+        @media(max-width: $mobile) { font-size: .9rem;}
 
         &:hover{
             color: $main-orange;

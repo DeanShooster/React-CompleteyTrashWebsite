@@ -22,7 +22,7 @@ export const Page404 = () => {
                 <img alt='' src={Poop}/>
                 <span>404 Error!</span>
             </h1>
-            <p>It looks like you've lost your way the URL:</p>
+            <p>It looks like you've lost your way!</p>
             <span className='url-404'>Completely-trash.gg{pathnameHandler(pathname)}</span>
             <p>doesn't exist.</p>
         </div>

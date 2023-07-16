@@ -1,0 +1,34 @@
+@import '../../../styles/global.scss';
+
+.addon-information-container{
+    display: flex;
+    width: 100%;
+
+    .addon-information-wrapper{
+        
+
+        .addon-title{
+            display: flex; justify-content: center; align-items: center; gap: 16px;
+
+            h1{
+                margin: 0;
+                font-size: 2.5rem;
+                transform: skew(5deg);
+            }
+        }
+
+        p{
+            margin: 0; padding: 0;
+        }
+
+        ul{
+    
+            li::marker{ color: $main-orange; font-size: 1.15rem; }
+        }
+
+        button{
+
+        }
+    }
+
+}

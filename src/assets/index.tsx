@@ -26,6 +26,8 @@ export { default as YouTube } from './svg/YouTube.svg';
 export { default as Reddit } from './svg/Reddit.svg';
 export { default as BurgerMenu } from './svg/BurgerMenu.svg';
 export { default as Poop } from './svg/Poop.svg';
+export { default as EmptyStar } from './svg/EmptyStar.svg';
+export { default as FilledStar } from './svg/FilledStar.svg';
 
 
 // Members

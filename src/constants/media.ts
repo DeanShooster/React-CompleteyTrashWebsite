@@ -19,6 +19,7 @@ export const speedRun = 'https://www.speedrun.com/gw2';
 export const raidLeague = 'https://gw2raidleague.com/';
 export const snowCrows = 'https://snowcrows.com';
 export const hardStuck = 'https://hardstuck.gg';
+export const addonVideoGuide = 'https://www.youtube-nocookie.com/embed/eIf1CBb365M';
 
 // Media Sources { name , url , image }
 export const mediaLinks: IMedia[] = [
@@ -41,7 +42,7 @@ export const addonLinks: IAddon[] = [
     { name: 'Mechanics Log' , url: 'https://github.com/knoxfighter/GW2-ArcDPS-Mechanics-Log' , image: '',data: mechanicLogs },
     { name: 'Log Uploader' , url: 'https://github.com/nbarrios/arcdps-uploader' , image: '', data: logUploader },
     { name: 'Killproof.me' , url: 'https://github.com/knoxfighter/arcdps-killproof.me-plugin' , image: '', data: kpme },
-    { name: 'Clears' , url: '' , image: 'https://github.com/gw2scratch/arcdps-clears', data: clears },
+    { name: 'Clears' , url: 'https://github.com/gw2scratch/arcdps-clears' , image: 'https://github.com/gw2scratch/arcdps-clears', data: clears },
     { name: 'Healing Stats' , url: 'https://github.com/Krappa322/arcdps_healing_stats' , image: '', data: healingStats },
     { name: 'Blish' , url: 'https://blishhud.com' , image: '', data: blish}
 ];
