@@ -24,3 +24,25 @@ $mobile: 600px;
     transform: scale(1.05); transition: .5s; 
     filter:brightness(150%);}
 }
+
+@mixin absoluteCenter{
+    position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+}
+
+@mixin button{
+    padding: 10px 20px;
+    color: $main-orange; background-color: transparent;
+    font-size: 1.5rem; font-family: cursive; white-space: nowrap;
+    border-radius: 12px; border: none; outline: 1px solid $main-orange;
+
+    @media(max-width: $mobile){
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+
+    &:hover{
+        cursor: pointer;
+        background-color: $main-orange; color: rgba(255, 255, 255, 0.75);
+        transform: scale(.95); transition: .5s;
+    }
+}

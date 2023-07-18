@@ -1,0 +1,31 @@
+@import '../../../../styles/global.scss';
+
+.instructions-container{
+    position: relative;
+    margin: 1rem 0;
+
+    @media(max-width: $ipad){ margin: 1rem;}
+
+    span{
+        font-weight: bold; color: $main-orange; font-size: 1.25rem;
+        &:hover{
+            cursor: pointer; text-decoration: underline;
+        }
+    }
+
+    .instructions-wrapper{
+        max-width: 300px;
+        margin: 0 -15px 0 0; padding: 15px 7px 15px 30px;
+        position: absolute; bottom: 0; left: 0; transform: translate(0,100%); z-index: 5;
+        display: flex; flex-flow: column; gap: 15px;
+        text-align: left; color: $main-orange; 
+        background-color: rgba(0, 0, 0, 0.85);
+        border-top-left-radius: 25px; border-bottom-left-radius: 25px;
+        animation: bingo-guide-slide-in .5s linear; 
+    }
+}
+
+@keyframes bingo-guide-slide-in{ 
+    0%{ position: absolute; bottom: 0; left: 0; transform: translate(-100%,100%); }
+    100%{ position: absolute; bottom: 0; left: 0; transform: translate(0,100%); }
+}

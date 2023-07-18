@@ -1,0 +1,15 @@
+@import '../../../../styles/global.scss';
+
+.bingo-game-container{
+    width: 100%;
+    display: flex; flex-flow: column; align-items: center; gap: 25px;
+
+    .bingo-buttons-container{
+        width: 100%;
+        display: flex; justify-content: center; align-items: center; gap: 40px;
+        & button{ @include button;}
+
+        @media(max-width: $ipad){ gap: 25px;}
+        @media(max-width: $mobile){ gap: 10px;}
+    }
+}

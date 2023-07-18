@@ -1,6 +1,6 @@
 
 import { GuildInfo } from './GuildInfo';
-import { TitleAndVideo } from '../../../components/TitleAndVideo';
+// import { TitleAndVideo } from '../../../components/TitleAndVideo';
 
 import './index.scss';
 

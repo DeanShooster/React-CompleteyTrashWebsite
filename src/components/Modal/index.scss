@@ -1,0 +1,36 @@
+@import '../../styles/global.scss';
+
+.modal{
+    @include absoluteCenter; z-index: 100;
+    padding: 2rem;
+    min-width: 500px;
+    background-color: black; color: $main-orange;
+    border-radius: 25px; outline: 1px solid $main-orange;
+    box-shadow: 0 0 5px $main-orange;
+
+    @media(max-width: $mobile){ min-width: 300px; width: 75%; }
+
+    span{
+        position: absolute; left: 20px; top: 10px;
+        font-size: 2rem;
+
+        @media(max-width:$mobile){ font-size: 1.5rem;}
+
+        &:hover{ cursor: pointer; color: white; }
+    }
+
+    h1{
+        margin: 0 0 1.5rem 0;
+        text-align: center; font-size: 1.75rem; text-decoration: underline; letter-spacing: 1px;
+
+        @media(max-width: $mobile){ font-size: 1.25rem;}
+    }
+
+    p{
+       margin: 0 auto 0 auto; padding: 0;
+       width: 75%;
+       text-align: center;
+
+       @media(max-width:$mobile){ font-size: .9rem;}
+    }
+}

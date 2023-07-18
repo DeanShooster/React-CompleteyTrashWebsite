@@ -1,5 +1,5 @@
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import { aboutPage, addonsPage, gameAndFunPage, homePage, newsPage, policyPage, recordsPage, recruitmentPage } from './constants/routing';
+import { aboutPage, addonsPage, fractalBingo, gameAndFunPage, homePage, newsPage, policyPage, recordsPage, recruitmentPage } from './constants/routing';
 
 import useWindowSize from './hooks/useWindowSize';
 import { minWidthSupport } from './constants/general';
@@ -11,6 +11,7 @@ import { Home } from './pages/Home';
 import { News } from './pages/News';
 import { Records } from './pages/Records';
 import { GamesAndFun } from './pages/GamesAndFun';
+import { FractalBingo } from './pages/GamesAndFun/FractalBingo';
 import { Addons } from './pages/Addons';
 import { AddonInformation } from './pages/Addons/AddonInformation';
 import { Recruitment } from './pages/Recruitment';
@@ -26,7 +27,6 @@ function App() {
   const {windowSize} = useWindowSize();
   if(windowSize <= minWidthSupport) return <NoSupport />;
 
-
   return (
     <div className='body Poppins'>
       <BrowserRouter>
@@ -35,7 +35,9 @@ function App() {
             <Route path={homePage} element={<Home />}/>
             <Route path={newsPage} element={<News />}/>
             <Route path={recordsPage} element={<Records />}/>
-            <Route path={gameAndFunPage} element={<GamesAndFun />}/>
+            <Route path={gameAndFunPage} element={<GamesAndFun />}>
+                <Route path={`${gameAndFunPage}/${fractalBingo}`} element={<FractalBingo />}/>
+            </Route>
             <Route path={addonsPage} element={<Addons />}>
                 <Route path={`${addonsPage}/:addon`} element={<AddonInformation />}/>
             </Route>

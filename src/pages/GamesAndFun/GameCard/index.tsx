@@ -14,7 +14,7 @@ export const GameCard = ({data}: IGameCard) => {
     const navigate = useNavigate();
 
     const gameNavigationHandler = () =>{
-        if(data.source)  window.open(data.source)
+        if(data.source) window.open(data.source)
         else navigate(data.name);
     }
 

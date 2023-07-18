@@ -15,6 +15,9 @@ export const recruitmentPage = '/Recruitment';
 export const aboutPage = '/About';
 export const policyPage = '/Policy';
 
+// Nested Routes
+export const fractalBingo = 'FractalBingo';
+
 // Navigation Links
 export const links: ILink[] = [
     { path: newsPage , text: 'News' },

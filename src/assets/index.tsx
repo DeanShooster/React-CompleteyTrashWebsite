@@ -29,6 +29,16 @@ export { default as Poop } from './svg/Poop.svg';
 export { default as EmptyStar } from './svg/EmptyStar.svg';
 export { default as FilledStar } from './svg/FilledStar.svg';
 
+// Fractals
+export { default as MAMA } from './images/fractals/mama.jpg';
+export { default as SIAX } from './images/fractals/siax.jpg';
+export { default as ENSOLYSS } from './images/fractals/ensolyss.jpg';
+export { default as SKOV } from './images/fractals/skov.webp';
+export { default as ARTSARIIV } from './images/fractals/artsariiv.jpg';
+export { default as ARKK } from './images/fractals/arkk.jpg';
+export { default as AI } from './images/fractals/ai.jpg';
+export { default as DARK_AI } from './images/fractals/darkai.jpg';
+export { default as FRACTAL } from './images/fractals/fractal.jpg';
 
 // Members
 export { default as Dean } from './images/members/Dean.webp';
