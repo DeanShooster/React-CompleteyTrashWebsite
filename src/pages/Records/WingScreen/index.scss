@@ -1,0 +1,15 @@
+@import '../../../styles/global.scss';
+
+.wing-screen-container{
+    width: 100%; height: 100%;
+    position: relative;
+    background-repeat: no-repeat; background-size: cover;
+}
+
+.wing-1{ background-image: url('https://wiki.guildwars2.com/images/9/97/Spirit_Vale_loading_screen.jpg');}
+.wing-2{ background-image: url('https://wiki.guildwars2.com/images/2/23/Salvation_Pass_loading_screen.png');}
+.wing-3{ background-image: url('https://wiki.guildwars2.com/images/8/87/Stronghold_of_the_Faithful_loading_screen.jpg');}
+.wing-4{ background-image: url('https://wiki.guildwars2.com/images/2/2d/Bastion_of_the_Penitent_loading_screen.jpg');}
+.wing-5{ background-image: url('https://wiki.guildwars2.com/images/8/89/Hall_of_Chains_loading_screen.jpg');}
+.wing-6{ background-image: url('https://wiki.guildwars2.com/images/5/52/Mythwright_Gambit_loading_screen.jpg'); }
+.wing-7{ background-image: url('https://wiki.guildwars2.com/images/2/2d/The_Key_of_Ahdashim_loading_screen.jpg');}

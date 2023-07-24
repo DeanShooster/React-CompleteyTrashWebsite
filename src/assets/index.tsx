@@ -12,14 +12,6 @@ export { default as borderLeft } from './images/border-left.png';
 export { default as Deadeye } from './images/specArt/Deadeye.webp';
 export { default as SpellBreaker } from './images/specArt/Spellbreaker.webp';
 
-// Backgrounds
-export { default as HomePageBG } from './images/homepageBG.jpg';
-export { default as ThemeBG } from './images/theme-bg.png';
-export { default as Screen1 } from './images/homepage-screen1.jpg';
-export { default as Screen2 } from './images/homepage-screen2.jpg';
-export { default as Screen3 } from './images/homepage-screen3.jpg';
-export { default as RecruitmentBG } from './images/recruitment-bg.jpg';
-
 // General SVG
 export { default as Discord } from './svg/Discord.svg';
 export { default as YouTube } from './svg/YouTube.svg';
@@ -28,6 +20,16 @@ export { default as BurgerMenu } from './svg/BurgerMenu.svg';
 export { default as Poop } from './svg/Poop.svg';
 export { default as EmptyStar } from './svg/EmptyStar.svg';
 export { default as FilledStar } from './svg/FilledStar.svg';
+export { default as ArrowCircleRight } from './svg/ArrowCircleRight.svg';
+export { default as ArrowCircleLeft } from './svg/ArrowCircleLeft.svg';
+
+// Backgrounds
+export { default as HomePageBG } from './images/homepageBG.jpg';
+export { default as ThemeBG } from './images/theme-bg.png';
+export { default as Screen1 } from './images/homepage-screen1.jpg';
+export { default as Screen2 } from './images/homepage-screen2.jpg';
+export { default as Screen3 } from './images/homepage-screen3.jpg';
+export { default as RecruitmentBG } from './images/recruitment-bg.jpg';
 
 // Fractals
 export { default as MAMA } from './images/fractals/mama.jpg';
@@ -50,3 +52,6 @@ export { default as Draz } from './images/members/Draz.webp';
 export { default as Stein } from './images/members/Stein.webp';
 export { default as Nerd } from './images/members/Nerdcore.webp';
 export { default as Vertox } from './images/members/Vertox.webp'; 
+
+// Wings
+export { default as test } from './images/wings/test.jpg';
