@@ -1,25 +1,30 @@
-
-import { useNavigate } from 'react-router';
-import { IWing } from '../../../../data/records';
+import { IEncounter } from '../../../../data/records';
 import { wingClassToString } from '../../../../utils/string';
 
 import './index.scss';
 
-interface IWingIntro{
-    wingData: IWing
+interface IWingStrikeIntro{
+    wingStrikeData: IEncounter;
+    setWingStrikeRecords: Function;
+    scrollToRecord: Function;
 }
 
-export const WingIntro = ({wingData} : IWingIntro) => {
-    const navigate = useNavigate();
-    const wingName = wingClassToString(wingData.name);
+export const WingStrikeIntro = ({wingStrikeData,setWingStrikeRecords,scrollToRecord} : IWingStrikeIntro) => {
+    const wingName = wingClassToString(wingStrikeData.name);
+
+    const setWingHandler = () => {
+        setWingStrikeRecords(wingStrikeData.wingName);
+        scrollToRecord();
+    }
+
     return (
-        <div className='wing-intro-container'>
+        <div className='wing-strike-intro-container'>
             <h1>{wingName}</h1>
-            <h2>{wingData.wingName}</h2>
+            <h2>{wingStrikeData.wingName}</h2>
             <ul>
-                {wingData.bosses.map((boss: string,index: number)=>{return <li key={index}>{boss}</li>})}
+                {wingStrikeData.bosses.map((boss: string,index: number)=>{return <li key={index}>{boss}</li>})}
             </ul>
-            <button onClick={()=>navigate(wingName)}>View Records</button>
+            <button onClick={setWingHandler}>View Records</button>
         </div>
     );
 }

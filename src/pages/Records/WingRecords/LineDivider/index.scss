@@ -1,0 +1,8 @@
+@import '../../../../styles/global.scss';
+
+.record-line-divider{
+    width: 100%; margin: 24px 0;
+    border: 1px solid rgba(255, 123, 0, 0.25);
+
+    @media(max-width: $ipad){ margin: 16px 0;}
+}

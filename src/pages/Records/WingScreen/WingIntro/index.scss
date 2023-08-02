@@ -1,6 +1,6 @@
 @import '../../../../styles/global.scss';
 
-.wing-intro-container{
+.wing-strike-intro-container{
     position: absolute; left: 32px; bottom: 50px;
     display: flex; flex-flow: column;
     padding: .5rem 2rem 1rem 2rem; width: 400px;
@@ -8,12 +8,15 @@
     border-radius: 25px;
 
     @media(max-width: $mobile){
-        
+        width: 100%; max-width: calc(100vw - 20px - 4rem);
+        left: 10px; 
     }
 
     h1{
         margin: 0;
-        text-transform: uppercase; font-size: 3rem; letter-spacing: 5px;
+        text-transform: uppercase; font-size: 3rem; letter-spacing: 5px; white-space: nowrap;
+
+        @media(max-width: $mobile){text-align: center;}
     }
 
     h2{
@@ -23,7 +26,6 @@
 
     ul{
         margin: 0 0 16px 16px; padding: 0;
-
         li::marker{ color: $main-orange;}
     }
 

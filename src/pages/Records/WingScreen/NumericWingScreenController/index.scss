@@ -1,23 +1,23 @@
 @import '../../../../styles/global.scss';
 
-.wing-screen-controller-container{
+.wing-strike-screen-controller-container{
     position: absolute; left: 50%; bottom: 16px; transform: translateX(-50%);
     display: flex; gap: .75rem;
 
     div{
-        padding: 0 5px; width: 20px;
+        padding: 0 5px; min-width: 20px;
         background-color: $main-orange; color: $background-theme;
         font-size: 1.25rem; font-weight: bold; text-align: center;
         border-radius: 50%; outline: 2px solid $background-theme;
 
-        @media(max-width: $mobile){ width: 12px; font-size: .9rem; }
+        @media(max-width: $mobile){ min-width: 12px; font-size: .9rem; }
 
         &:hover{ @include bright-hover-effect;}
     }
 
-    .active-wing{
-        outline: 2px solid white;
-        color: white;
+    .active-wing-strike{
+        outline: 2px solid $main-color;
+        color: $main-color;
         transform: scale(1.05);
         @include cancel-hover;
     }

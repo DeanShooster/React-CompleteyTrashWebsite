@@ -1,19 +1,24 @@
 import { useState } from 'react';
-import { IWing, wings } from '../../../data/records';
+import { IEncounter, encounter } from '../../../data/records';
 
 import { ArrowWingScreenController } from './ArrowWingScreenController';
-import { WingIntro } from './WingIntro';
+import { WingStrikeIntro } from './WingIntro';
 import { NumericWingScreenController } from './NumericWingScreenController';
 
 import './index.scss';
 
-export const WingScreen = () => {
-    const [wing, setWing] = useState<IWing>(wings[0]);
+interface IWingScreen{
+    setWingStrikeRecords: Function;
+    scrollToRecord: Function;
+}
+
+export const WingStrikeScreen = ({setWingStrikeRecords , scrollToRecord}: IWingScreen) => {
+    const [encounterStrike, setEncounter] = useState<IEncounter>(encounter[0]);
     return (
-        <section className={`wing-screen-container ${wing.name}`}>
-            <ArrowWingScreenController wingData={wing} setWing={setWing}/>
-            <WingIntro wingData={wing}/>
-            <NumericWingScreenController wingData={wing} setWing={setWing}/>
+        <section className={`wing-strike-screen-container ${encounterStrike.name.replace(' ','-').toLocaleLowerCase()}`}>
+            <ArrowWingScreenController wingStrikeData={encounterStrike} setEncounter={setEncounter}/>
+            <WingStrikeIntro wingStrikeData={encounterStrike} setWingStrikeRecords={setWingStrikeRecords} scrollToRecord={scrollToRecord}/>
+            <NumericWingScreenController wingStrikeData={encounterStrike} setEncounter={setEncounter}/>
         </section>
     );
 }

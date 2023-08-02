@@ -1,4 +1,3 @@
-
 // General Images
 export { default as cTLogo } from './images/logo.png';
 export { default as SCLogo } from './images/logoSC.png';
@@ -53,5 +52,37 @@ export { default as Stein } from './images/members/Stein.webp';
 export { default as Nerd } from './images/members/Nerdcore.webp';
 export { default as Vertox } from './images/members/Vertox.webp'; 
 
-// Wings
-export { default as test } from './images/wings/test.jpg';
+// Wing Records Thumbnails
+export { default as W15MEN } from './images/thumbnails/w1 5 men.jpg';
+export { default as VG4MEN } from './images/thumbnails/VG 4men.png';
+export { default as Gorse4MEN } from './images/thumbnails/Gorse 4 men.jpg';
+export { default as Gorse5MEN } from './images/thumbnails/Gorse 5 men.jpg';
+export { default as KC5MEN } from './images/thumbnails/KC 5 men.jpg';
+export { default as Cairn2MEN } from './images/thumbnails/Cairn 2 men.webp';
+export { default as Sabetha10MEN } from './images/thumbnails/Sabetha 10 men.jpg';
+export { default as Samarog4MEN } from './images/thumbnails/Sama 4 men.webp';
+export { default as Deimos5MEN } from './images/thumbnails/Deimos 5 men.webp';
+export { default as W45MEN } from './images/thumbnails/W4 5 men.webp';
+export { default as River1MEN } from './images/thumbnails/River 1 men.webp';
+export { default as Statues2MEN } from './images/thumbnails/Statues 2 men.webp';
+export { default as Adina4MEN } from './images/thumbnails/Adina 4 men.jpg';
+export { default as Adina3MEN } from './images/thumbnails/Adina 3 men.jpg';
+export { default as Sabir5MEN } from './images/thumbnails/Sabir 5 men.webp';
+export { default as Sabir4MEN } from './images/thumbnails/Sabir 4 men.jpg';
+export { default as Sabir5MENV2 } from './images/thumbnails/Sabir 5 Men V2.jpg';
+export { default as QTP3MEN } from './images/thumbnails/Qadim 3 Men.jpg';
+export { default as Gorse4MENV2 } from './images/thumbnails/Gorse 4 men V2.webp';
+export { default as IceContstruct1MEN } from './images/thumbnails/IceContruct 1 men.jpg';
+export { default as BS3MEN } from './images/thumbnails/BS 3 men.jpg';
+export { default as WoJ4MEN } from './images/thumbnails/WoJ 4 men.jpg';
+export { default as WoJ3MEN } from './images/thumbnails/WoJ 3 men.jpg';
+export { default as FREEZIE } from './images/thumbnails/freezie 2 men.webp';
+export { default as Ankka3MEN } from './images/thumbnails/Ankka 3 men.webp';
+export { default as AH3MEN } from './images/thumbnails/AH 3 men.jpg';
+export { default as HT3MEN } from './images/thumbnails/HT 3 men.jpg';
+export { default as HT2MEN } from './images/thumbnails/HT 2 men.webp';
+export { default as Ankka2MEN } from './images/thumbnails/Ankka 2 men.webp';
+export { default as Ankka1MEN } from './images/thumbnails/Ankka 1 men.jpg';
+export { default as OLC1MEN } from './images/thumbnails/OLC 1 men.webp';
+export { default as KO1MEN } from './images/thumbnails/KO 1 men.jpg';
+export { default as Ankka3MENV2 } from './images/thumbnails/Ankka 3 men V2.jpg';

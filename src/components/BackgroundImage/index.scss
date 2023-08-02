@@ -6,6 +6,6 @@
 
     img{ 
         width: 100%; height: 100%;
-        @media(max-width: $mobile){ width: auto; height: fit-content;}
+        @media(max-width: $mobile){ height: fit-content;}
     }
 }

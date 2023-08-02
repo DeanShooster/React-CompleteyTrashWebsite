@@ -1,26 +1,28 @@
-import { IWing, wings } from '../../../../data/records';
+import { IEncounter, encounter } from '../../../../data/records';
+import { isNumber } from '../../../../utils/string';
 
 import './index.scss';
 
 interface INumericWingScreenController{
-    wingData: IWing;
-    setWing: Function;
+    wingStrikeData: IEncounter;
+    setEncounter: Function;
 }
 
-export const NumericWingScreenController = ({wingData ,setWing} : INumericWingScreenController) => {
+export const NumericWingScreenController = ({wingStrikeData ,setEncounter} : INumericWingScreenController) => {
 
-    const wingClassHandler = (wingNumber: number) => {
-        if(wingData.name === wings[wingNumber].name) return;
-        else setWing(wings[wingNumber]);
+    const wingClassHandler = (wingStrikeNumber: number) => {
+        if(wingStrikeData.name === encounter[wingStrikeNumber].name) return;
+        else setEncounter(encounter[wingStrikeNumber]);
     }
 
     return (
-        <div className='wing-screen-controller-container'>
-            {wings.map((wing: IWing,index: number)=>{
-                const wingName = wing.name;
+        <div className='wing-strike-screen-controller-container'>
+            {encounter.map((wingStrike: IEncounter,index: number)=>{
+                const wingStrikeName = wingStrike.name;
+                const wingNumber = wingStrikeName.charAt(wingStrikeName.length - 1);
                 return (
-                    <div key={index} onClick={()=>wingClassHandler(index)} className={wingName === wingData.name ? 'active-wing' : undefined}>
-                        {wingName.charAt(wingName.length - 1)}
+                    <div key={index} onClick={()=>wingClassHandler(index)} className={wingStrikeName === wingStrikeData.name ? 'active-wing-strike' : undefined}>
+                        {isNumber(wingNumber) ? wingNumber : wingStrike.wingName.substring(0,3)}
                     </div>
                 );
             })}

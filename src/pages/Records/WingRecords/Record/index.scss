@@ -1,0 +1,73 @@
+@import '../../../../styles/global.scss';
+
+$bigMove: -20px; $smallMove: -10px;
+$transition-time: .5s;
+
+.encounter-record-wrapper{
+    display: flex; flex-flow: column;
+
+    h2{
+        margin: 0; padding: 0;
+        letter-spacing: 3px; text-decoration: underline; color: $main-orange;
+
+        @media(max-width: $ipad){ text-align: center;}
+    }
+
+    .records-container{
+        width: 100%; padding: 2rem 0;
+        display: flex; gap: 64px; flex-wrap: wrap;
+
+        @media(max-width: $ipad){ justify-content: center;}
+
+        .record-wrapper{
+            position: relative;
+            width: fit-content;
+            display: flex; flex-flow: column; align-items: center;
+            transition: $transition-time;
+    
+            img{
+                width: 300px;
+                border-radius: 7px;
+                transition: $transition-time;
+
+                @media(max-width: $ipad){ width: 250px; }
+                @media(max-width: $mobile){width: 90%;}
+            }
+
+            .reddit-log-links-container{
+                display: flex; gap: 16px;
+                span{
+                    font-size: 20px; letter-spacing: 1px;
+                    color: $main-orange;
+    
+                    &:hover{ color: $main-color;}
+                }
+            }
+
+
+            &::before{
+                content: "";
+                position: absolute; left: $bigMove; right: $bigMove; top: $smallMove; bottom: $smallMove; z-index: -1;
+                opacity: .7;
+                border: solid 2px $main-orange;
+            }
+    
+            &::after{
+                content: "";
+                position: absolute; left: $smallMove; right: $smallMove; top: $bigMove; bottom: $bigMove; z-index: -1;
+                opacity: .3;
+                border: solid 2px $main-orange;
+            }
+
+            &:hover{
+                cursor: pointer;
+                &::before{ border: solid 2px $main-color;}
+                &::after{border: solid 2px $main-color;}
+                transform: scale(.95);
+
+                img{ filter: brightness(80%); transition: $transition-time;}
+            }
+        }
+    }
+
+}

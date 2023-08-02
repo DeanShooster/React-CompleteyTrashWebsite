@@ -1,12 +1,23 @@
+import { useRef, useState, useEffect } from 'react';
 
-import { WingScreen } from './WingScreen';
+import { WingStrikeScreen } from './WingScreen';
+import { WingStrikeRecords } from './WingRecords';
 
 import './index.scss';
 
 export const Records = () => {
+    const [wingStrikeRecords,setWingStrikeRecords] = useState<string>('');
+    const recordsRef = useRef<any>(null);
+
+    useEffect(()=>{recordsRef.current?.scrollIntoView();},[])
+    const scrollToRecord = () => setTimeout(() => { window.scrollTo( { top: recordsRef?.current?.offsetTop ? recordsRef?.current?.offsetTop - 150 : 0, behavior: 'smooth' }) }, 50);
+
     return (
-        <section className="records-page">
-            <WingScreen />
-        </section>
+        <>
+            <section className="records-page">
+                <WingStrikeScreen setWingStrikeRecords={setWingStrikeRecords} scrollToRecord={scrollToRecord}/>
+                <WingStrikeRecords wingStrikeRecords={wingStrikeRecords} recordsRef={recordsRef}/>
+            </section>
+        </>
     );
 }
