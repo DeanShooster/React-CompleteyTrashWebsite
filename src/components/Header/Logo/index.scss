@@ -1,4 +1,14 @@
+
+$transition-hover: .5s;
+
 .logo-container{
+    transition: $transition-hover;
+
     img{ width: 5rem; }
-    &:hover{ cursor: pointer; }
+
+    &:hover{ 
+        cursor: pointer; 
+        transform: scale(1.05);
+        transition: $transition-hover;
+    }
 }

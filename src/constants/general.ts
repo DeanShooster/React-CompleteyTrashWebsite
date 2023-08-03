@@ -1,4 +1,5 @@
 // General
+export const cT = 'Completely Trash';
 export const minWidthSupport: number = 400;
 export const clickPropagation: string = 'click-propagation';
 

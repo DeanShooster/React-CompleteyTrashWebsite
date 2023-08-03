@@ -1,5 +1,7 @@
 @import '../../../styles/global.scss';
 
+$transition-hover: .7s;
+
 .game-card-container{
     position: relative;
     width: 450px;
@@ -16,11 +18,12 @@
         position: relative; 
         border-radius: 10px;
         overflow: hidden;
+        transition: $transition-hover;
 
         &:hover{
             cursor: pointer;
             filter: brightness(75%);
-            transform: scale(1.05); transition: .7s;
+            transform: scale(1.05); transition: $transition-hover;
 
             span{ animation: fade-in .7s linear; }
         }

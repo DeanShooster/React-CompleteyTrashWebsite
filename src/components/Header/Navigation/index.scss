@@ -1,6 +1,7 @@
 @import '../../../styles/global.scss';
 
 $top-header-gap: 6rem;
+$transition-hover: .4s;
 
 .navigation-container{
     display: flex; gap: 3rem;
@@ -15,6 +16,7 @@ $top-header-gap: 6rem;
 
     .link-container{
         display: flex; flex-flow: column; align-items: center;
+        transition: $transition-hover;
 
         a{
             text-decoration: none; font-weight: bold; font-size: 1.15rem; white-space: nowrap;
@@ -24,7 +26,7 @@ $top-header-gap: 6rem;
         &:hover{
             cursor: pointer;
             transform: scale(1.1) skewX(7deg);
-            transition: .4s;
+            transition: $transition-hover;
         }
     }
 }

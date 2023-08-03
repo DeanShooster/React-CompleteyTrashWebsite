@@ -1,6 +1,6 @@
 import { Adina3MEN, Adina4MEN, BS3MEN, Cairn2MEN, Deimos5MEN, Gorse4MEN, Gorse4MENV2, Gorse5MEN, 
     IceContstruct1MEN, KC5MEN, QTP3MEN, River1MEN, Sabetha10MEN, Sabir4MEN, Sabir5MEN, Sabir5MENV2, 
-    Samarog4MEN, Statues2MEN, VG4MEN, W15MEN, W45MEN, WoJ3MEN, WoJ4MEN, FREEZIE, Ankka3MEN, AH3MEN, HT3MEN, HT2MEN, Ankka2MEN, Ankka1MEN, OLC1MEN, KO1MEN, Ankka3MENV2 } from "../assets";
+    Samarog4MEN, Statues2MEN, VG4MEN, W15MEN, W45MEN, WoJ3MEN, WoJ4MEN, FREEZIE, Ankka3MEN, AH3MEN, HT3MEN, HT2MEN, Ankka2MEN, Ankka1MEN, OLC1MEN, KO1MEN, Ankka3MENV2, MO5MEN, IceConstruct1MENV2, FoJ2MEN, KO3MEN } from "../assets";
 
 const w1 = 'Spirit Vale', w2 = 'Salvation Pass', w3 = 'Stronghold of the Faithful', w4 = 'Bastion of the Penitent', w5 = 'Hall of Chains', w6 = 'Mythwright Gambit', w7 = 'Key of Ahdashim';
 
@@ -181,7 +181,7 @@ export const wingRecordsData: IWingDataRecords[] = [
             {
                 name: MO,
                 records: [
-                    {   raiders: 5, image: '' , 
+                    {   raiders: 5, image: MO5MEN , 
                         video: 'https://youtu.be/D5L7WzK0igg',
                         log: 'https://dps.report/8Z94-20210823-232141_mo'
                     }
@@ -322,7 +322,7 @@ export const wingRecordsData: IWingDataRecords[] = [
             {
                 name: IceConstruct,
                 records: [
-                    {   raiders: 1, image: '' , 
+                    {   raiders: 1, image: IceConstruct1MENV2 , 
                         video: 'https://youtu.be/lz18cWsgsy8' , 
                         log: 'https://dps.report/DuJ8-20220224-150623_ice'
                     },
@@ -341,7 +341,7 @@ export const wingRecordsData: IWingDataRecords[] = [
             {
                 name: FoJ,
                 records: [
-                    {   raiders: 2, image: '' , 
+                    {   raiders: 2, image: FoJ2MEN , 
                         video: 'https://youtu.be/DYjs4iwQcS0', 
                         log: 'https://dps.report/cP7l-20220329-181935_frae'
                     }
@@ -429,7 +429,7 @@ export const wingRecordsData: IWingDataRecords[] = [
             {
                 name: KO,
                 records: [
-                    {   raiders: 3, image: '' , 
+                    {   raiders: 3, image: KO3MEN , 
                         video: 'https://youtu.be/mGEDp3D93gE' , 
                         log: 'https://dps.report/a1Zi-20220515-001024_li'
                     },

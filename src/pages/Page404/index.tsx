@@ -1,4 +1,5 @@
 import { useLocation } from 'react-router';
+import { useTitle } from '../../hooks/useTitle';
 
 import useWindowSize from '../../hooks/useWindowSize';
 
@@ -6,6 +7,9 @@ import './index.scss';
 import { Poop } from '../../assets';
 
 export const Page404 = () => {
+
+    useTitle('/404 Error');
+
     const { windowSize , screenSize } = useWindowSize();
     const {pathname} = useLocation();
 

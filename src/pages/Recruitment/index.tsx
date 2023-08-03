@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
+import { useTitle } from '../../hooks/useTitle';
+import { recruitmentPage } from '../../constants/routing';
 
 import { RecruitmentIntroScreen } from './RecruitmentIntroScreen';
 import { RecruitmentInfo } from './RecruitmentInfo';
@@ -6,6 +8,8 @@ import { RecruitmentInfo } from './RecruitmentInfo';
 import './index.scss';
 
 export const Recruitment = () => {
+
+    useTitle(recruitmentPage);
 
     const [showRecruitmentInfo,setRecruitmentInfo] = useState<boolean>(false);
     const recruitmentPageRef = useRef<HTMLElement | null>(null);

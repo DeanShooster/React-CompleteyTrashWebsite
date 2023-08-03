@@ -14,14 +14,14 @@
 
     h1{
         margin: 0;
-        text-transform: uppercase; font-size: 3rem; letter-spacing: 5px; white-space: nowrap;
+        text-transform: uppercase; font-size: 3rem; letter-spacing: 5px; white-space: nowrap; text-shadow: 1px 1px 1px white;
 
         @media(max-width: $mobile){text-align: center;}
     }
 
     h2{
         margin: 10px 0;
-        text-decoration: underline;
+        text-decoration: underline; letter-spacing: 1px; white-space: nowrap;
     }
 
     ul{
@@ -29,5 +29,9 @@
         li::marker{ color: $main-orange;}
     }
 
-    button{ @include button;}
+    button{ 
+        @include button;
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: .5s;
+    }
 }

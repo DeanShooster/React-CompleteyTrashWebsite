@@ -54,7 +54,7 @@ export { default as Vertox } from './images/members/Vertox.webp';
 
 // Wing Records Thumbnails
 export { default as W15MEN } from './images/thumbnails/w1 5 men.jpg';
-export { default as VG4MEN } from './images/thumbnails/VG 4men.png';
+export { default as VG4MEN } from './images/thumbnails/VG 4 men.webp';
 export { default as Gorse4MEN } from './images/thumbnails/Gorse 4 men.jpg';
 export { default as Gorse5MEN } from './images/thumbnails/Gorse 5 men.jpg';
 export { default as KC5MEN } from './images/thumbnails/KC 5 men.jpg';
@@ -86,3 +86,7 @@ export { default as Ankka1MEN } from './images/thumbnails/Ankka 1 men.jpg';
 export { default as OLC1MEN } from './images/thumbnails/OLC 1 men.webp';
 export { default as KO1MEN } from './images/thumbnails/KO 1 men.jpg';
 export { default as Ankka3MENV2 } from './images/thumbnails/Ankka 3 men V2.jpg';
+export { default as MO5MEN } from './images/thumbnails/MO 5 men.webp';
+export { default as IceConstruct1MENV2 } from './images/thumbnails/IceConstruct 1 men.webp';
+export { default as FoJ2MEN } from './images/thumbnails/FoJ 2 men.webp';
+export { default as KO3MEN } from './images/thumbnails/KO 3 men.jpg';

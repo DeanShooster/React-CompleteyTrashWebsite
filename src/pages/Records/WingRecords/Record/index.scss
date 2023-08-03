@@ -8,7 +8,7 @@ $transition-time: .5s;
 
     h2{
         margin: 0; padding: 0;
-        letter-spacing: 3px; text-decoration: underline; color: $main-orange;
+        letter-spacing: 3px; text-decoration: underline; color: $main-orange; text-shadow: -1px 0 0 $main-orange;
 
         @media(max-width: $ipad){ text-align: center;}
     }
@@ -26,7 +26,7 @@ $transition-time: .5s;
             transition: $transition-time;
     
             img{
-                width: 300px;
+                width: 300px; height: 175px;
                 border-radius: 7px;
                 transition: $transition-time;
 

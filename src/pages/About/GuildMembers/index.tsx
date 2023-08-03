@@ -5,6 +5,7 @@ import { MembersList } from './MembersList';
 import { Loader } from '../../../components/Loader';
 
 import './index.scss';
+import { AnimatedTitleHeader } from '../../../components/AnimatedTitleHeader';
 
 export const GuildMembers = () => {
 
@@ -18,7 +19,7 @@ export const GuildMembers = () => {
 
     return (
         <section className='guild-members-container'>
-            <h1>Guild Members</h1>
+            <AnimatedTitleHeader title='Guild Members'/>
             {isLoading ? <Loader /> : <MembersList members={guildMembers}/>}
         </section>
     );
