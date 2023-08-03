@@ -2,7 +2,6 @@ import { useOutletContext } from "react-router";
 import { IAddonsData } from "../../../data/addons";
 
 import { StarRating } from "./StarRating";
-import { GIF } from "../../../components/GIF";
 
 import './index.scss';
 
@@ -14,9 +13,7 @@ interface IAddonInformation{
 }
 
 export const AddonInformation = () => {
-    
     const addon: IAddonInformation = useOutletContext();
-
     return (
         <section className="addon-information-container">
             <div className="addon-information-wrapper">
@@ -25,6 +22,7 @@ export const AddonInformation = () => {
                     <StarRating rating={addon.data.popular}/>
                 </div>
                 <p>{addon.data.summarize}</p>
+                <hr/>
                 <ul>
                     {addon.data.pointers.map((pointer: string, index: number)=>{
                         return <li key={index}>{pointer}</li>
@@ -32,7 +30,9 @@ export const AddonInformation = () => {
                 </ul>
                 <button onClick={()=>window.open(addon.url)}>{addon.name}</button>
             </div>
-            <GIF src=''/>
+            <div className="addon-information-image-wrapper">
+                <img alt='' src={addon.image}/>
+            </div>
         </section>
     );
 }

@@ -1,5 +1,7 @@
 @import '../../styles/global.scss';
 
+$dot-desktop-size: 13px; $dot-ipad-size: 10px;
+
 .video-container{
     width: 100%; min-height: 400px;
 
@@ -10,5 +12,22 @@
     iframe{
         width: 100%; height: 100%; max-height: 500px;
         border: none; border-radius: 7px;
+    }
+
+    .video-nav-dots{
+        margin-top: 10px;
+        display: flex; justify-content: center; gap: 7px;
+
+        & > div{
+            width: $dot-desktop-size; height: $dot-desktop-size;
+            background-color: $main-orange;
+            border-radius: 50%;
+
+            @media(max-width: $ipad){ width: $dot-ipad-size; height: $dot-ipad-size;}
+
+            &:hover{ cursor: pointer;}
+        }
+
+        .selected-dot{ background-color: $main-color; }
     }
 }

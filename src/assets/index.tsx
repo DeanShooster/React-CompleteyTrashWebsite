@@ -10,6 +10,12 @@ export { default as borderBottom } from './images/border-bottom.png';
 export { default as borderLeft } from './images/border-left.png';
 export { default as Deadeye } from './images/specArt/Deadeye.webp';
 export { default as SpellBreaker } from './images/specArt/Spellbreaker.webp';
+export { default as Weaver } from './images/specArt/Weaver.webp';
+export { default as FireBrand } from './images/specArt/FB.webp';
+export { default as Renegade } from './images/specArt/Renegade.webp';
+export { default as Mesmer } from './images/specArt/Mirage.webp';
+export { default as Untamed } from './images/specArt/Untamed.png';
+export { default as Blish } from './images/specArt/Blish.png';
 
 // General SVG
 export { default as Discord } from './svg/Discord.svg';

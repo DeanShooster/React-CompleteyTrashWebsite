@@ -5,7 +5,7 @@
     display: flex; justify-content: space-evenly; gap: 32px;
 
    @media(max-width: $ipad){ 
-        flex-flow: column-reverse; gap: 50px; 
+        flex-flow: column-reverse; gap: 100px; 
         padding: calc($padding-top-header-fix + 6rem) 40px 0 40px;
     }
    @media(max-width: $mobile) {  padding: calc($padding-top-header-fix + 8rem) 40px 0 40px; }

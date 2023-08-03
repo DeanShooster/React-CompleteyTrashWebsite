@@ -2,7 +2,7 @@
 
 .addon-nav{
     padding: 16px;
-    position: fixed; top: calc($padding-top-header-fix - 1.25rem); left: 50%; transform: translateX(-50%);
+    position: fixed; top: calc($padding-top-header-fix - 1.25rem); left: 50%; transform: translateX(-50%); z-index: 1;
     display: flex; gap: 20px;
     border-bottom-right-radius: 25px; border-bottom-left-radius: 25px;
     border-bottom: 4px double $main-color; border-right: 4px double $main-color; border-left: 4px double $main-color;
