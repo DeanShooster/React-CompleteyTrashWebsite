@@ -1,6 +1,6 @@
 // General
 export const cT = 'Completely Trash';
-export const minWidthSupport: number = 400;
+export const minWidthSupport: number = 375;
 export const clickPropagation: string = 'click-propagation';
 
 // Text Msgs
