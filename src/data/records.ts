@@ -1,6 +1,6 @@
 import { Adina3MEN, Adina4MEN, BS3MEN, Cairn2MEN, Deimos5MEN, Gorse4MEN, Gorse4MENV2, Gorse5MEN, 
     IceContstruct1MEN, KC5MEN, QTP3MEN, River1MEN, Sabetha10MEN, Sabir4MEN, Sabir5MEN, Sabir5MENV2, 
-    Samarog4MEN, Statues2MEN, VG4MEN, W15MEN, W45MEN, WoJ3MEN, WoJ4MEN, FREEZIE, Ankka3MEN, AH3MEN, HT3MEN, HT2MEN, Ankka2MEN, Ankka1MEN, OLC1MEN, KO1MEN, Ankka3MENV2, MO5MEN, IceConstruct1MENV2, FoJ2MEN, KO3MEN } from "../assets";
+    Samarog4MEN, Statues2MEN, VG4MEN, W15MEN, W45MEN, WoJ3MEN, WoJ4MEN, FREEZIE, Ankka3MEN, AH3MEN, HT3MEN, HT2MEN, Ankka2MEN, Ankka1MEN, OLC1MEN, KO1MEN, Ankka3MENV2, MO5MEN, IceConstruct1MENV2, FoJ2MEN, KO3MEN, MO3MEN } from "../assets";
 
 const w1 = 'Spirit Vale', w2 = 'Salvation Pass', w3 = 'Stronghold of the Faithful', w4 = 'Bastion of the Penitent', w5 = 'Hall of Chains', w6 = 'Mythwright Gambit', w7 = 'Key of Ahdashim';
 
@@ -85,11 +85,6 @@ export const wingRecordsData: IWingDataRecords[] = [
             {
                 name: Gorse,
                 records: [
-                    {   raiders: 5 ,image: Gorse5MEN, 
-                        video: 'https://youtu.be/ygndU1iOf7I', 
-                        reddit: 'https://www.reddit.com/r/Guildwars2/comments/y5dl9d/gorseval_5_men_by_completely_trash_ct/', 
-                        log: 'https://dps.report/isB1-20221001-214056_gors'
-                    },
                     {   raiders: 4 ,image: Gorse4MEN, 
                         video: 'https://youtu.be/8hhRwEU0fcQ' , 
                         reddit: 'https://www.reddit.com/r/Guildwars2/comments/zvlv2q/gorseval_4_men_by_completely_trash_ct/',
@@ -99,6 +94,11 @@ export const wingRecordsData: IWingDataRecords[] = [
                         raiders: 4, image: Gorse4MENV2,
                         video: 'https://youtu.be/tVNkQZuBqDI',
                         log: 'https://dps.report/PR9E-20221210-233940_gors'
+                    },
+                    {   raiders: 5 ,image: Gorse5MEN, 
+                        video: 'https://youtu.be/ygndU1iOf7I', 
+                        reddit: 'https://www.reddit.com/r/Guildwars2/comments/y5dl9d/gorseval_5_men_by_completely_trash_ct/', 
+                        log: 'https://dps.report/isB1-20221001-214056_gors'
                     }
                 ],
             },
@@ -181,6 +181,12 @@ export const wingRecordsData: IWingDataRecords[] = [
             {
                 name: MO,
                 records: [
+                    {
+                        raiders: 3, image: MO3MEN,
+                        video: 'https://youtu.be/vFWtAfgJ0L0',
+                        reddit: 'https://www.reddit.com/r/Guildwars2/comments/15ldilo/mursaat_overseer_trio_by_completely_trash_ct/',
+                        log: 'https://dps.report/YGin-20230730-233445_mo'
+                    },
                     {   raiders: 5, image: MO5MEN , 
                         video: 'https://youtu.be/D5L7WzK0igg',
                         log: 'https://dps.report/8Z94-20210823-232141_mo'
@@ -271,30 +277,30 @@ export const wingRecordsData: IWingDataRecords[] = [
             {
                 name: Adina,
                 records: [
-                    {   raiders: 4, image: Adina4MEN , 
-                        video: 'https://youtu.be/boQjAvMHmtc' , 
-                        reddit: 'https://www.reddit.com/r/Guildwars2/comments/vn720p/cardinal_adina_4_men_656_by_completely_trash_ct/',
-                        log: 'https://dps.report/lNsK-20220627-221329_adina'
-                    },
                     {   raiders: 3, image: Adina3MEN , 
                         video: 'https://youtu.be/6HjBvL47l_8', 
                         reddit: 'https://www.reddit.com/r/Guildwars2/comments/vymzdo/cardinal_adina_3_men_1239_by_completely_trash_ct/',
                         log: 'https://dps.report/uSwg-20220713-012648_adina'
+                    },
+                    {   raiders: 4, image: Adina4MEN , 
+                        video: 'https://youtu.be/boQjAvMHmtc' , 
+                        reddit: 'https://www.reddit.com/r/Guildwars2/comments/vn720p/cardinal_adina_4_men_656_by_completely_trash_ct/',
+                        log: 'https://dps.report/lNsK-20220627-221329_adina'
                     },
                 ]
             },
             {
                 name: Sabir,
                 records: [
-                    {   raiders: 5, image: Sabir5MEN , 
-                        video: 'https://youtu.be/jMy9Gv18mXA', 
-                        reddit: 'https://www.reddit.com/r/Guildwars2/comments/wda27q/cardinal_sabir_5_men_609_by_completely_trash_ct/',
-                        log: 'https://dps.report/Wq01-20220730-215344_sabir'
-                    },
                     {   raiders: 4, image: Sabir4MEN , 
                         video: 'https://youtu.be/SstYGmDUTSY', 
                         reddit: 'https://www.reddit.com/r/Guildwars2/comments/xt1opt/cardinal_sabir_4_men_by_completely_trash_ct/',
                         log: 'https://dps.report/kadw-20220928-231049_sabir'
+                    },
+                    {   raiders: 5, image: Sabir5MEN , 
+                        video: 'https://youtu.be/jMy9Gv18mXA', 
+                        reddit: 'https://www.reddit.com/r/Guildwars2/comments/wda27q/cardinal_sabir_5_men_609_by_completely_trash_ct/',
+                        log: 'https://dps.report/Wq01-20220730-215344_sabir'
                     },
                     {   raiders: 5, image: Sabir5MENV2 , 
                         video: 'https://youtu.be/Bfhpv_kzfPo' , 
@@ -360,15 +366,15 @@ export const wingRecordsData: IWingDataRecords[] = [
             {
                 name: WoJ,
                 records: [
-                    {   raiders: 4, image: WoJ4MEN ,
-                        video: 'https://youtu.be/pNDqq_FLvvo' , 
-                        reddit: 'https://www.reddit.com/r/Guildwars2/comments/wz3oag/whisper_of_jormag_3_and_4_men_by_completely_trash/' , 
-                        log: 'https://dps.report/f2az-20220823-005534_whisp' 
-                    },
                     {   raiders: 3, image: WoJ3MEN ,
                         video: 'https://youtu.be/QABGusz8kTU' , 
                         reddit: 'https://www.reddit.com/r/Guildwars2/comments/wz3oag/whisper_of_jormag_3_and_4_men_by_completely_trash/' , 
                         log: 'https://dps.report/WyZh-20220821-195444_whisp' 
+                    },
+                    {   raiders: 4, image: WoJ4MEN ,
+                        video: 'https://youtu.be/pNDqq_FLvvo' , 
+                        reddit: 'https://www.reddit.com/r/Guildwars2/comments/wz3oag/whisper_of_jormag_3_and_4_men_by_completely_trash/' , 
+                        log: 'https://dps.report/f2az-20220823-005534_whisp' 
                     }
                 ]
             },
@@ -405,19 +411,19 @@ export const wingRecordsData: IWingDataRecords[] = [
             {
                 name: Ankka,
                 records: [
-                    {   raiders: 3, image: Ankka3MEN , 
-                        video: 'https://youtu.be/uf5jc1zDxH4' , 
-                        log: 'https://dps.report/OuWS-20220512-223410_ankka'
+                    {   raiders: 1, image: Ankka1MEN , 
+                        video: 'https://youtu.be/mwNe_5ssluw' , 
+                        reddit: 'https://www.reddit.com/r/Guildwars2/comments/139m693/ankka_fastest_solo_by_completely_trash_ct/', 
+                        log: 'https://dps.report/UCcl-20230424-164611_ankka'
                     },
                     {   raiders: 2, image: Ankka2MEN , 
                         video: 'https://youtu.be/M-qXq5IzY0E' , 
                         reddit: 'https://www.reddit.com/r/Guildwars2/comments/12hm1s1/ankka_duo_by_completely_trash_ct/', 
                         log: 'https://dps.report/Rmln-20230407-010227_ankka'
                     },
-                    {   raiders: 1, image: Ankka1MEN , 
-                        video: 'https://youtu.be/mwNe_5ssluw' , 
-                        reddit: 'https://www.reddit.com/r/Guildwars2/comments/139m693/ankka_fastest_solo_by_completely_trash_ct/', 
-                        log: 'https://dps.report/UCcl-20230424-164611_ankka'
+                    {   raiders: 3, image: Ankka3MEN , 
+                        video: 'https://youtu.be/uf5jc1zDxH4' , 
+                        log: 'https://dps.report/OuWS-20220512-223410_ankka'
                     },
                     {   raiders: 3, image: Ankka3MENV2 , 
                         video: 'https://youtu.be/GKxHyd4SZ_A' , 
@@ -429,29 +435,29 @@ export const wingRecordsData: IWingDataRecords[] = [
             {
                 name: KO,
                 records: [
-                    {   raiders: 3, image: KO3MEN , 
-                        video: 'https://youtu.be/mGEDp3D93gE' , 
-                        log: 'https://dps.report/a1Zi-20220515-001024_li'
-                    },
                     {   raiders: 1, image: KO1MEN , 
                         video: 'https://youtu.be/YL3Ht5-6BOk' , 
                         reddit: 'https://www.reddit.com/r/Guildwars2/comments/14k7jl1/minister_li_ko_solo_by_completely_trash_ct/' , 
                         log: 'https://dps.report/f2rk-20230626-041505_li'
-                    }
+                    },
+                    {   raiders: 3, image: KO3MEN , 
+                        video: 'https://youtu.be/mGEDp3D93gE' , 
+                        log: 'https://dps.report/a1Zi-20220515-001024_li'
+                    },
                 ]
             },
             {
                 name: HT,
                 records: [
-                    {   raiders: 3, image: HT3MEN , 
-                        video: 'https://youtu.be/fsz54u72Mrw' , 
-                        reddit: 'https://www.reddit.com/r/Guildwars2/comments/vslycd/harvest_temple_3_men_2027_by_completely_trash_ct/' , 
-                        log: 'https://dps.report/BOZv-20220705-021224_void'
-                    },
                     {   raiders: 2, image: HT2MEN , 
                         video: 'https://youtu.be/Y5RPnF7WM38' , 
                         reddit: 'https://www.reddit.com/r/Guildwars2/comments/yig9q2/harvest_temple_duo_by_completely_trash_ct/' , 
                         log: 'https://dps.report/BOIJ-20221028-173301_void'
+                    },
+                    {   raiders: 3, image: HT3MEN , 
+                        video: 'https://youtu.be/fsz54u72Mrw' , 
+                        reddit: 'https://www.reddit.com/r/Guildwars2/comments/vslycd/harvest_temple_3_men_2027_by_completely_trash_ct/' , 
+                        log: 'https://dps.report/BOZv-20220705-021224_void'
                     },
                 ]
             },

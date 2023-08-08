@@ -96,3 +96,4 @@ export { default as MO5MEN } from './images/thumbnails/MO 5 men.webp';
 export { default as IceConstruct1MENV2 } from './images/thumbnails/IceConstruct 1 men.webp';
 export { default as FoJ2MEN } from './images/thumbnails/FoJ 2 men.webp';
 export { default as KO3MEN } from './images/thumbnails/KO 3 men.jpg';
+export { default as MO3MEN } from './images/thumbnails/MO 3 men.jpg';
