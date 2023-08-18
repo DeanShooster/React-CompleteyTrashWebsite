@@ -1,6 +1,6 @@
 import { Adina3MEN, Adina4MEN, BS3MEN, Cairn2MEN, Deimos5MEN, Gorse4MEN, Gorse4MENV2, Gorse5MEN, 
     IceContstruct1MEN, KC5MEN, QTP3MEN, River1MEN, Sabetha10MEN, Sabir4MEN, Sabir5MEN, Sabir5MENV2, 
-    Samarog4MEN, Statues2MEN, VG4MEN, W15MEN, W45MEN, WoJ3MEN, WoJ4MEN, FREEZIE, Ankka3MEN, AH3MEN, HT3MEN, HT2MEN, Ankka2MEN, Ankka1MEN, OLC1MEN, KO1MEN, Ankka3MENV2, MO5MEN, IceConstruct1MENV2, FoJ2MEN, KO3MEN, MO3MEN } from "../assets";
+    Samarog4MEN, Statues2MEN, VG4MEN, W15MEN, W45MEN, WoJ3MEN, WoJ4MEN, FREEZIE, Ankka3MEN, AH3MEN, HT3MEN, HT2MEN, Ankka2MEN, Ankka1MEN, OLC1MEN, KO1MEN, Ankka3MENV2, MO5MEN, IceConstruct1MENV2, FoJ2MEN, KO3MEN, MO3MEN, W25MEN } from "../assets";
 
 const w1 = 'Spirit Vale', w2 = 'Salvation Pass', w3 = 'Stronghold of the Faithful', w4 = 'Bastion of the Penitent', w5 = 'Hall of Chains', w6 = 'Mythwright Gambit', w7 = 'Key of Ahdashim';
 
@@ -136,7 +136,13 @@ export const wingRecordsData: IWingDataRecords[] = [
                 records: []
             }
         ],
-        fullWing: []
+        fullWing: [
+            {
+                raiders: 5, image: W25MEN,
+                video: 'https://youtu.be/ccbQ0jsTqTw',
+                reddit: 'https://www.reddit.com/r/Guildwars2/comments/15uir9d/wing_2_5_men_by_completely_trash_ct/'
+            }
+        ]
     },
     {
         name: w3,
