@@ -98,3 +98,4 @@ export { default as FoJ2MEN } from './images/thumbnails/FoJ 2 men.webp';
 export { default as KO3MEN } from './images/thumbnails/KO 3 men.jpg';
 export { default as MO3MEN } from './images/thumbnails/MO 3 men.jpg';
 export { default as W25MEN } from './images/thumbnails/W2 5 MEN.jpg';
+export { default as FoJ2MENV2 } from './images/thumbnails/FoJ 2 men v2.webp';

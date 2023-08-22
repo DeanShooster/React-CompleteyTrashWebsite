@@ -1,6 +1,6 @@
 import { Adina3MEN, Adina4MEN, BS3MEN, Cairn2MEN, Deimos5MEN, Gorse4MEN, Gorse4MENV2, Gorse5MEN, 
     IceContstruct1MEN, KC5MEN, QTP3MEN, River1MEN, Sabetha10MEN, Sabir4MEN, Sabir5MEN, Sabir5MENV2, 
-    Samarog4MEN, Statues2MEN, VG4MEN, W15MEN, W45MEN, WoJ3MEN, WoJ4MEN, FREEZIE, Ankka3MEN, AH3MEN, HT3MEN, HT2MEN, Ankka2MEN, Ankka1MEN, OLC1MEN, KO1MEN, Ankka3MENV2, MO5MEN, IceConstruct1MENV2, FoJ2MEN, KO3MEN, MO3MEN, W25MEN } from "../assets";
+    Samarog4MEN, Statues2MEN, VG4MEN, W15MEN, W45MEN, WoJ3MEN, WoJ4MEN, FREEZIE, Ankka3MEN, AH3MEN, HT3MEN, HT2MEN, Ankka2MEN, Ankka1MEN, OLC1MEN, KO1MEN, Ankka3MENV2, MO5MEN, IceConstruct1MENV2, FoJ2MEN, KO3MEN, MO3MEN, W25MEN, FoJ2MENV2 } from "../assets";
 
 const w1 = 'Spirit Vale', w2 = 'Salvation Pass', w3 = 'Stronghold of the Faithful', w4 = 'Bastion of the Penitent', w5 = 'Hall of Chains', w6 = 'Mythwright Gambit', w7 = 'Key of Ahdashim';
 
@@ -354,7 +354,7 @@ export const wingRecordsData: IWingDataRecords[] = [
                 name: FoJ,
                 records: [
                     {
-                        raiders: 2, image: '',
+                        raiders: 2, image: FoJ2MENV2,
                         video: 'https://youtu.be/BRv1brukEhc',
                         log: 'https://dps.report/vhsf-20230805-015604_frae'
                     },
