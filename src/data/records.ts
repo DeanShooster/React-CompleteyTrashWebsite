@@ -353,6 +353,11 @@ export const wingRecordsData: IWingDataRecords[] = [
             {
                 name: FoJ,
                 records: [
+                    {
+                        raiders: 2, image: '',
+                        video: 'https://youtu.be/BRv1brukEhc',
+                        log: 'https://dps.report/vhsf-20230805-015604_frae'
+                    },
                     {   raiders: 2, image: FoJ2MEN , 
                         video: 'https://youtu.be/DYjs4iwQcS0', 
                         log: 'https://dps.report/cP7l-20220329-181935_frae'
