@@ -23,7 +23,7 @@ export const GameCard = ({data}: IGameCard) => {
             <h1>{data.name}</h1>
             <div className='game-card-image-container' onMouseOver={()=>setLetsPlay(true)} onMouseLeave={()=>setLetsPlay(false)} >
                 <ImageBorderBlackFence />
-                <img alt='' src={data.image} className='game-card-image' />
+                <img alt='' src={data.image} className='game-card-image' loading="lazy"/>
                 {letsPlay && <div className='lets-play' onClick={gameNavigationHandler}><span>Lets Play</span></div>}
             </div>
             <p>{data.bgText}</p>

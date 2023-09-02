@@ -16,7 +16,7 @@ export const Slider = () => {
 
     return (
         <div className="slider-frame-wrapper" onClick={()=>window.open(screen.url)}>
-            <img alt='' src={screen.image}/>
+            <img alt='' src={screen.image} loading="lazy"/>
             <span>{screen.name}</span>
         </div>
     );

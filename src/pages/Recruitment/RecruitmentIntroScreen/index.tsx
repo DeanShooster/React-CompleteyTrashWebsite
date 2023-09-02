@@ -16,7 +16,7 @@ export const RecruitmentIntroScreen = ({showRecruitmentInfo,showRecruitButton,sc
 
     return (
         <div className='recruitment-intro-screen-container'>
-            <img alt='' src={RecruitmentBG}/>
+            <img alt='' src={RecruitmentBG} loading='lazy'/>
             <div className='recruitment-intro'>
                 <GlowingTitle aboveTitle='Recruitment' title='Completely Trash' subTitle='Hardcore Raid/Strike guild'/>
                 <p>Welcome to the Recruitment page</p>

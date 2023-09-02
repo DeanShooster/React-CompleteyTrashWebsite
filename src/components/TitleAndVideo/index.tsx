@@ -17,7 +17,8 @@ export const TitleAndVideo = ({title,source,style} : ITitleAndVideo) => {
                 src={source[videoIndex]}
                 title={title ? title[videoIndex] : undefined} 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowFullScreen>
+                allowFullScreen
+                loading="lazy">
             </iframe>
             {source.length > 0 &&
                 <div className='video-nav-dots'>

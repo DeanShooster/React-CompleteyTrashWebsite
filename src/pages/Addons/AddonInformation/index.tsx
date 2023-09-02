@@ -31,7 +31,7 @@ export const AddonInformation = () => {
                 <button onClick={()=>window.open(addon.url)}>{addon.name}</button>
             </div>
             <div className="addon-information-image-wrapper">
-                <img alt='' src={addon.image}/>
+                <img alt='' src={addon.image} loading="lazy"/>
             </div>
         </section>
     );

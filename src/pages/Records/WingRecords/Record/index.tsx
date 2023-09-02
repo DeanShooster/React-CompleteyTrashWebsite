@@ -16,7 +16,7 @@ export const Record = ({title,records} : IRecord) => {
                 {records.map((record:IEncounterRecord, index: number)=>{
                     return (
                         <div key={index} className="record-wrapper" onClick={()=>window.open(record.video)}>
-                            <img alt='' src={record.image}/>
+                            <img alt='' src={record.image} loading="lazy"/>
                             <div className="reddit-log-links-container">
                                 {record.reddit && <span onClick={()=>window.open(record.reddit)}>Reddit Post</span>}
                                 {record.log && <span onClick={()=>window.open(record.log)}>Log</span>}
