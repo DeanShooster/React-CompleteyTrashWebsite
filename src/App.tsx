@@ -9,6 +9,7 @@ import { Footer } from './components/Footer';
 import { NoSupport } from './components/NoSupport';
 import { Home } from './pages/Home';
 import { News } from './pages/News';
+import { NewsInformation } from './pages/News/NewsInformation';
 import { Records } from './pages/Records';
 import { GamesAndFun } from './pages/GamesAndFun';
 import { FractalBingo } from './pages/GamesAndFun/FractalBingo';
@@ -33,7 +34,9 @@ function App() {
         <Header />
         <Routes>
             <Route path={homePage} element={<Home />}/>
-            <Route path={newsPage} element={<News />}/>
+            <Route path={newsPage} element={<News />}>
+              <Route path={`${newsPage}/:newsItem`} element={<NewsInformation />}/>
+            </Route>
             <Route path={recordsPage} element={<Records />}/>
             <Route path={gameAndFunPage} element={<GamesAndFun />}>
                 <Route path={`${gameAndFunPage}/${fractalBingo}`} element={<FractalBingo />}/>

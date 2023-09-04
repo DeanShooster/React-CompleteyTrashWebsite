@@ -27,3 +27,14 @@ export function wingClassToString(encounterClass: string){
 export function isNumber(char: string){
     return /^[0-9]$/.test(char);
 }
+
+/**
+ * Adjusts the string date format to have a ',' and removes the year. Example: 'Tue Aug 22 2023 -> Tue, Aug 22'
+ * @param stringDate String Date.
+ * @returns String
+ */
+export function NewsDateFormat(stringDate: string){
+    const slice1 = stringDate.substring(0,3);
+    const slice2 = stringDate.substring(4,10);
+    return slice1 + ', ' + slice2;
+}

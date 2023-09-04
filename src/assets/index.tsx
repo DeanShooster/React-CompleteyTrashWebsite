@@ -35,6 +35,15 @@ export { default as Screen1 } from './images/homepage-screen1.jpg';
 export { default as Screen2 } from './images/homepage-screen2.jpg';
 export { default as Screen3 } from './images/homepage-screen3.jpg';
 export { default as RecruitmentBG } from './images/recruitment-bg.jpg';
+export { default as IBSStrike } from './images/strikes/ibs bg.jpg';
+export { default as EODStrike } from './images/strikes/eod bg.jpg';
+export { default as WING1 } from './images/wings/wing 1 bg.jpg';
+export { default as WING2 } from './images/wings/wing 2 bg.png';
+export { default as WING3 } from './images/wings/wing 3 bg.jpg';
+export { default as WING4 } from './images/wings/wing 4 bg.jpg';
+export { default as WING5 } from './images/wings/wing 5 bg.jpg';
+export { default as WING6 } from './images/wings/wing 6 bg.jpg';
+export { default as WING7 } from './images/wings/wing 7 bg.jpg';
 
 // Fractals
 export { default as MAMA } from './images/fractals/mama.jpg';

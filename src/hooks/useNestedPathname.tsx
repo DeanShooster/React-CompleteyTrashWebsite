@@ -12,7 +12,7 @@ export default function useNestedPathname(currentPage: string, setPageName: Func
             const nestedPageName: string = nestedUrlDestructuring(pathname);
             const nestedPage = nestedPagesMediaArray.find((page: any)=> nestedPageName === page.name);
             if(nestedPage) setPageName(nestedPage);
-            else navigate(`${currentPage}x/${nestedPageName}`);
+            else navigate(`${currentPage}./${nestedPageName}`);
         }
     },[pathname,currentPage,navigate,nestedPagesMediaArray,setPageName]);
 

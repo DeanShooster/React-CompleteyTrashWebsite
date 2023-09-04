@@ -1,0 +1,56 @@
+@import '../../../styles/global.scss';
+
+.news-item-wrapper{
+    width: 22%;
+    display: flex; flex-flow: column; gap: 16px;
+    color: $sub-color;
+
+    @media(max-width: 1500px){ width: 30%; }
+    @media(max-width: $ipad) { width: 45%;}
+    @media(max-width: $mobile) { 
+        width: 100%;
+        gap: 12px;
+    }
+
+    .date-type{
+        display: flex; justify-content: space-between; align-items: center;
+        font-size: 1.05rem; font-weight: bold;
+
+        span{
+            white-space: nowrap;
+        }
+
+        & > span:nth-child(2){
+            padding: 2px 8px;
+            background-color: #ac6515;
+            // background-color: $main-orange;
+            border-radius: 25px;
+            text-shadow: 0 0 3px black; letter-spacing: .5px; color: $main-color;
+        }
+    }
+
+    img{
+        height: 225px; width: 100%; max-width: 600px;
+        border-radius: 15px;
+        box-shadow: 0 0 15px rgb(34, 34, 34);
+
+        @include bright-hover-effect;
+    }
+
+    .title-text{
+        display: flex; flex-flow: column; gap: 6px;
+
+        @media(max-width: $mobile){ gap: 0; }
+
+        h1{
+            margin: 0;
+            letter-spacing: 2px;
+        }
+    
+        p{
+            margin: 0;
+            letter-spacing: .5px; text-shadow: 0 0 1px $sub-color;
+        }
+    }
+
+}

@@ -3,6 +3,7 @@
 .page-404{
     position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
     display: flex; flex-flow: column; align-items: center; gap: 1rem;
+    color: $sub-color;
 
     h1{
         margin: 0;

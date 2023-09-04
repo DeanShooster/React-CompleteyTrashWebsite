@@ -5,6 +5,7 @@ $transition-hover: .7s;
 .game-card-container{
     position: relative;
     width: 450px;
+    color: $sub-color;
 
     @media(max-width: $ipad){ width: 75%; }
 

@@ -18,7 +18,7 @@ export const gamesAndFun: IGame[] = [
             'After the fractal run each player yields a bingo card and marks the events that occurred. Afterwards the players check who got bingo and won the jackpot!',
             'Lastly each player can clipboard the card to the discord server so everyone can see the results.'
         ]
-    }
+    },
 ];
 
 export interface IGame{

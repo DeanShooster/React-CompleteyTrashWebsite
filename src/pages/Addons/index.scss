@@ -3,6 +3,7 @@
 .addons-page{
     padding: calc($padding-top-header-fix + 5rem) 40px 0 40px;
     display: flex; justify-content: space-evenly; gap: 32px;
+    color: $sub-color;
 
    @media(max-width: $ipad){ 
         flex-flow: column-reverse; gap: 100px; 

@@ -1,0 +1,18 @@
+@import '../../../styles/global.scss';
+
+.news-title{
+    color: $sub-color;
+
+    h1{ text-transform: uppercase; letter-spacing: 5px;}
+
+    p{
+        margin: 0; padding: 0;
+        font-size: 1.15rem; letter-spacing: .5px;
+
+        span{
+            font-weight: bold;
+            color: $main-orange;
+        }
+    }
+}
+

@@ -1,5 +1,23 @@
 @import '../../styles/global.scss';
 
 .news-page{
-    padding-top: $padding-top-header-fix;
+    padding-top: $padding-top-header-fix; margin: 0 auto;
+    width: 80%;
+
+    @media(max-width: $mobile){ width: 85%; }
+
+    .news-container{
+        margin: 64px 0;
+        width: 100%;
+        display: flex; flex-flow: wrap; column-gap: 40px; row-gap: 16px;
+
+        @media(max-width: $ipad){ justify-content: space-between; column-gap: 5%; row-gap: 48px; }
+        @media(max-width: $mobile){ column-gap: 0; }
+    }
+
+    .pagination-button-wrapper{
+        width: 100%;
+        display: flex; justify-content: center;
+        button{ @include button; }
+    }
 }
