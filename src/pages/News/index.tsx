@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Outlet } from 'react-router';
 
 import { newsPage } from '../../constants/routing';
 import { useTitle } from '../../hooks/useTitle';
@@ -8,6 +7,7 @@ import { paginationNumber } from '../../constants/general';
 
 import { Title } from './Title';
 import { NewsItem } from './NewsItem';
+import { NewsInformation } from './NewsInformation';
 
 import './index.scss';
 import { BackgroundImage } from '../../components/BackgroundImage';
@@ -23,22 +23,19 @@ export const News = () => {
     return (
         <section className="news-page">
             <BackgroundImage image={ThemeBG} style={{filter: 'brightness(50%)'}}/>
-            {newsItem ? <Outlet context={newsItem}/> :
-                <>
-                    <Title />
-                    <div className='news-container'>
-                        {newsData.map((news: INews,index: number)=>{
-                            if(!pagination && index > paginationNumber) return null;
-                            return <NewsItem key={index} news={news} setNewsItem={setNewsItem}/>
-                        })}
-                    </div>
-                    {!pagination && newsData.length > paginationNumber &&
-                        <div className='pagination-button-wrapper'>
-                            <button onClick={()=>setPagination(true)}>Load All News</button>
-                        </div>
-                    }    
-                </>
-            }
+            <Title />
+            <div className='news-container'>
+                {newsData.map((news: INews,index: number)=>{
+                    if(!pagination && index > paginationNumber) return null;
+                    return <NewsItem key={index} news={news} setNewsItem={setNewsItem}/>
+                })}
+            </div>
+            {!pagination && newsData.length > paginationNumber &&
+                <div className='pagination-button-wrapper'>
+                    <button onClick={()=>setPagination(true)}>Load All News</button>
+                </div>
+            }    
+            {newsItem && <NewsInformation news={newsItem} closeNewsItem={()=>setNewsItem(null)}/>}
         </section>
     );
 }
