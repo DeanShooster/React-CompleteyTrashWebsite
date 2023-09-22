@@ -1,20 +1,45 @@
-@import '../../../styles/global.scss';
+@import "../../../styles/global.scss";
 
-.wing-strike-screen-container{
-    width: 100%; height: calc(100vh - $padding-top-header-fix - 94px);
-    position: relative;
-    background-repeat: no-repeat; background-size: cover;
-    filter: brightness(80%);
+.wing-strike-screen-container {
+  width: 100%;
+  height: calc(100vh - $padding-top-header-fix - 94px);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(80%);
 
-    @media(max-width: $mobile){ min-height: $min-mobile-bg-height;}
+  @media (max-width: $mobile) {
+    min-height: $min-mobile-bg-height;
+  }
 }
 
-.wing-1{ background-image: url('../../../assets/images/wings/wing\ 1\ bg.jpg');}
-.wing-2{ background-image: url('../../../assets/images/wings/wing\ 2\ bg.png');}
-.wing-3{ background-image: url('../../../assets/images/wings/wing\ 3\ bg.jpg');}
-.wing-4{ background-image: url('../../../assets/images/wings/wing\ 4\ bg.jpg');}
-.wing-5{ background-image: url('../../../assets/images/wings/wing\ 5\ bg.jpg');}
-.wing-6{ background-image: url('../../../assets/images/wings/wing\ 6\ bg.jpg'); }
-.wing-7{ background-image: url('../../../assets/images/wings/wing\ 7\ bg.jpg');}
-.ibs-strikes{ background-image: url('../../../assets/images/strikes/ibs\ bg.jpg');}
-.eod-strikes{ background-image: url('../../../assets/images/strikes/eod\ bg.jpg');}
+.wing-1 {
+  background-image: url("../../../assets/images/wings/wing\ 1\ bg.jpg");
+}
+.wing-2 {
+  background-image: url("../../../assets/images/wings/wing\ 2\ bg.png");
+}
+.wing-3 {
+  background-image: url("../../../assets/images/wings/wing\ 3\ bg.jpg");
+}
+.wing-4 {
+  background-image: url("../../../assets/images/wings/wing\ 4\ bg.jpg");
+}
+.wing-5 {
+  background-image: url("../../../assets/images/wings/wing\ 5\ bg.jpg");
+}
+.wing-6 {
+  background-image: url("../../../assets/images/wings/wing\ 6\ bg.jpg");
+}
+.wing-7 {
+  background-image: url("../../../assets/images/wings/wing\ 7\ bg.jpg");
+}
+.ibs-strikes {
+  background-image: url("../../../assets/images/strikes/ibs\ bg.jpg");
+}
+.eod-strikes {
+  background-image: url("../../../assets/images/strikes/eod\ bg.jpg");
+}
+.soto-strikes {
+  background-image: url("../../../assets/images/strikes/soto\ bg.png");
+}
