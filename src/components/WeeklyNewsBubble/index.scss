@@ -1,0 +1,29 @@
+@import "../../styles/global.scss";
+
+.weekly-news-bubble {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  @include button;
+  padding: 8px;
+  border-radius: 0 15px 0 0;
+  background-color: black;
+  animation: size-up linear infinite 1.5s;
+
+  span {
+    font-size: 20px;
+  }
+}
+
+@keyframes size-up {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -42,6 +42,8 @@ import {
   Pandas2MEN,
   BS2MEN,
   WOJ2MEN,
+  VG2MENV2,
+  VG3MEN,
 } from "../assets";
 
 const w1 = "Spirit Vale",
@@ -156,7 +158,21 @@ export const wingRecordsData: IWingDataRecords[] = [
     bosses: [
       {
         name: VG,
-        records: [{ raiders: 4, image: VG4MEN, video: "https://youtu.be/_pqnqEj_2wU", log: "https://dps.report/Yei7-20220321-224439_vg" }],
+        records: [
+          {
+            raiders: 3,
+            image: VG3MEN,
+            video: "https://youtu.be/5xnYcXLNsQY",
+            log: "https://dps.report/l72n-20230914-005152_vg",
+          },
+          {
+            raiders: 4,
+            image: VG2MENV2,
+            video: "https://youtu.be/62QaCs9BsfM",
+            log: "https://dps.report/UY8U-20230913-234451_vg",
+          },
+          { raiders: 4, image: VG4MEN, video: "https://youtu.be/_pqnqEj_2wU", log: "https://dps.report/Yei7-20220321-224439_vg" },
+        ],
       },
       {
         name: SpiritWoods,

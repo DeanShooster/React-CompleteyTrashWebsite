@@ -1,6 +1,20 @@
-import { IBSStrike, Screen1, WING2, WING4 } from "../assets";
+import { IBSStrike, Screen1, WING1, WING2, WING4 } from "../assets";
 
 export const newsData: INews[] = [
+  {
+    type: "Record",
+    title: "Vale Guardian Lowmen",
+    text: "Vale Guardian 3 Men in 5:31",
+    image: WING1,
+    date: new Date(2023, 8, 24),
+  },
+  {
+    type: "Update",
+    title: "Weekly News Bubble",
+    text: "Added a news announcer bubble when there is an update.",
+    image: Screen1,
+    date: new Date(2023, 8, 23),
+  },
   {
     type: "Record",
     title: "IBS Strikes",

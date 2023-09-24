@@ -111,3 +111,5 @@ export { default as FoJ2MENV2 } from "./images/thumbnails/FoJ 2 men v2.webp";
 export { default as Pandas2MEN } from "./images/thumbnails/Pandas2MEN.jpg";
 export { default as BS2MEN } from "./images/thumbnails/BS2MEN.jpg";
 export { default as WOJ2MEN } from "./images/thumbnails/WoJ2MEN.jpg";
+export { default as VG2MENV2 } from "./images/thumbnails/VG4MENV2.jpg";
+export { default as VG3MEN } from "./images/thumbnails/VG3MEN.jpg";
