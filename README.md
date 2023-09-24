@@ -19,4 +19,4 @@
 
 <h2 align="center">Cloud</h2>
 
-https://completely-trash.gg/
+https://completely-trash.gg
