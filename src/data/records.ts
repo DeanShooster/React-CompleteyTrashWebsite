@@ -44,6 +44,7 @@ import {
   WOJ2MEN,
   VG2MENV2,
   VG3MEN,
+  SH10MEN,
 } from "../assets";
 
 const w1 = "Spirit Vale",
@@ -323,7 +324,15 @@ export const wingRecordsData: IWingDataRecords[] = [
     bosses: [
       {
         name: SH,
-        records: [],
+        records: [
+          {
+            raiders: 10,
+            image: SH10MEN,
+            video: "https://youtu.be/Sc_ETy4KL7M",
+            reddit: "https://www.reddit.com/r/Guildwars2/comments/16sj1sz/soulless_horror_speedrun_by_ct_ln_qt_friends/",
+            log: "https://dps.report/qRGs-20230926-013723_sh",
+          },
+        ],
       },
       {
         name: River,

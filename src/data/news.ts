@@ -1,6 +1,13 @@
-import { IBSStrike, Screen1, WING1, WING2, WING4 } from "../assets";
+import { IBSStrike, Screen1, WING1, WING2, WING4, WING5 } from "../assets";
 
 export const newsData: INews[] = [
+  {
+    type: "Record",
+    title: "Soulless Horror Speedrun",
+    text: "Scourge abuse speedrun with LN,qT & Friends. 1:26 Kill time.",
+    image: WING5,
+    date: new Date(2023, 8, 26),
+  },
   {
     type: "Record",
     title: "Vale Guardian Lowmen",
