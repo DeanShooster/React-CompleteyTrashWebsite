@@ -45,6 +45,7 @@ import {
   VG2MENV2,
   VG3MEN,
   SH10MEN,
+  W45MENV2,
 } from "../assets";
 
 const w1 = "Spirit Vale",
@@ -311,6 +312,12 @@ export const wingRecordsData: IWingDataRecords[] = [
       },
     ],
     fullWing: [
+      {
+        raiders: 5,
+        image: W45MENV2,
+        video: "https://youtu.be/ddhv66hu7cQ",
+        reddit: "https://www.reddit.com/r/Guildwars2/comments/17mr6ga/wing_4_5_men_by_completely_trash_ct/",
+      },
       {
         raiders: 5,
         image: W45MEN,
