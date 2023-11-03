@@ -3,6 +3,13 @@ import { IBSStrike, Screen1, WING1, WING2, WING4, WING5 } from "../assets";
 export const newsData: INews[] = [
   {
     type: "Record",
+    title: "Wing 4",
+    text: "Full Wing 5 Men in 18:53",
+    image: WING4,
+    date: new Date(2023, 10, 4),
+  },
+  {
+    type: "Record",
     title: "Soulless Horror Speedrun",
     text: "Scourge abuse speedrun with LN,qT & Friends. 1:26 Kill time.",
     image: WING5,
