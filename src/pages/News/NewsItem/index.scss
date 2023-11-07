@@ -45,6 +45,7 @@
     max-width: 600px;
     border-radius: 15px;
     box-shadow: 0 0 15px rgb(34, 34, 34);
+    transition: 0.5s;
   }
 
   .title-text {
@@ -66,5 +67,14 @@
       letter-spacing: 0.5px;
       text-shadow: 0 0 1px $sub-color;
     }
+  }
+}
+
+.record-hover {
+  &:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+    box-shadow: 0 0 15px rgb(168, 168, 168);
+    transition: 0.5s;
   }
 }

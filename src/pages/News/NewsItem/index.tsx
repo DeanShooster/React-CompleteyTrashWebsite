@@ -1,4 +1,6 @@
+import { useNavigate } from "react-router";
 import { INews } from "../../../data/news";
+import { recordTarget, recordsPage } from "../../../constants/routing";
 
 import { NewsDateFormat } from "../../../utils/string";
 
@@ -9,13 +11,20 @@ interface INewsItem {
 }
 
 export const NewsItem = ({ news }: INewsItem) => {
+  const navigate = useNavigate();
+
   return (
     <div className="news-item-wrapper">
       <div className="date-type">
         <span>{NewsDateFormat(news.date.toDateString())}</span>
         <span>{news.type}</span>
       </div>
-      <img alt="" src={news.image} />
+      <img
+        alt=""
+        src={news.image}
+        className={news.type === "Record" ? "record-hover" : undefined}
+        onClick={() => navigate(`${recordsPage}?${recordTarget}=${news.recordName}`)}
+      />
       <div className="title-text">
         <h1>{news.title}</h1>
         <p>{news.text}</p>

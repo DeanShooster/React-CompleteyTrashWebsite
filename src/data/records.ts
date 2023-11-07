@@ -48,7 +48,7 @@ import {
   W45MENV2,
 } from "../assets";
 
-const w1 = "Spirit Vale",
+export const w1 = "Spirit Vale",
   w2 = "Salvation Pass",
   w3 = "Stronghold of the Faithful",
   w4 = "Bastion of the Penitent",
@@ -82,7 +82,7 @@ const Adina = "Cardinal Adina",
   Sabir = "Cardinal Sabir",
   QTP = "Qadim The Peerless";
 
-const IBS = "IBS Strikes",
+export const IBS = "IBS Strikes",
   EOD = "EOD Strikes",
   SOTO = "SOTO Strikes";
 

@@ -23,7 +23,7 @@ export const News = () => {
       <Title />
       <div className="news-container">
         {newsData.map((news: INews, index: number) => {
-          if (!pagination && index > paginationNumber) return null;
+          if (!pagination && index >= paginationNumber) return null;
           return <NewsItem key={index} news={news} />;
         })}
       </div>
