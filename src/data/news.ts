@@ -1,6 +1,14 @@
-import { IBSStrike, Screen1, WING1, WING2, WING4, WING5 } from "../assets";
+import { IBSStrike, SOTOStrike, Screen1, WING1, WING2, WING4, WING5 } from "../assets";
 
 export const newsData: INews[] = [
+  {
+    type: "Record",
+    title: "SOTO Strike",
+    text: "Solo Cosmic Observatory in 47:30",
+    image: SOTOStrike,
+    date: new Date(2023, 10, 18),
+    recordName: "SOTO",
+  },
   {
     type: "Update",
     title: "Clickable News Records",

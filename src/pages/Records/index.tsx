@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from "react";
+import { useLocation } from "react-router";
 import { useTitle } from "../../hooks/useTitle";
 import { recordTarget, recordsPage } from "../../constants/routing";
 import { EOD, IBS, SOTO, w1, w2, w3, w4, w5, w6, w7 } from "../../data/records";
@@ -7,7 +8,6 @@ import { WingStrikeScreen } from "./WingScreen";
 import { WingStrikeRecords } from "./WingRecords";
 
 import "./index.scss";
-import { useLocation } from "react-router";
 
 export const Records = () => {
   useTitle(recordsPage);
@@ -19,12 +19,14 @@ export const Records = () => {
   const [wingStrikeRecords, setWingStrikeRecords] = useState<string>("");
   const recordsRef = useRef<any>(null);
 
+  const scrollToRecordHandler = () => window.scrollTo({ top: recordsRef?.current?.offsetTop ? recordsRef?.current?.offsetTop - 150 : 0, behavior: "smooth" });
+
   useEffect(() => {
     recordsRef.current?.scrollIntoView();
   }, []);
   const scrollToRecord = () =>
     setTimeout(() => {
-      window.scrollTo({ top: recordsRef?.current?.offsetTop ? recordsRef?.current?.offsetTop - 150 : 0, behavior: "smooth" });
+      scrollToRecordHandler();
     }, 50);
 
   useEffect(() => {
@@ -32,48 +34,51 @@ export const Records = () => {
     switch (queryTargetSearch) {
       case "1": {
         setWingStrikeRecords(w1);
-        return;
+        break;
       }
       case "2": {
         setWingStrikeRecords(w2);
-        return;
+        break;
       }
       case "3": {
         setWingStrikeRecords(w3);
-        return;
+        break;
       }
       case "4": {
         setWingStrikeRecords(w4);
-        return;
+        break;
       }
       case "5": {
         setWingStrikeRecords(w5);
-        return;
+        break;
       }
       case "6": {
         setWingStrikeRecords(w6);
-        return;
+        break;
       }
       case "7": {
         setWingStrikeRecords(w7);
-        return;
+        break;
       }
       case "IBS": {
         setWingStrikeRecords(IBS);
-        return;
+        break;
       }
       case "EOD": {
         setWingStrikeRecords(EOD);
-        return;
+        break;
       }
       case "SOTO": {
         setWingStrikeRecords(SOTO);
-        return;
+        break;
       }
       default: {
         return;
       }
     }
+    setTimeout(() => {
+      scrollToRecordHandler();
+    }, 50);
   }, [queryTargetSearch]);
 
   return (

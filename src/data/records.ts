@@ -46,6 +46,7 @@ import {
   VG3MEN,
   SH10MEN,
   W45MENV2,
+  DagdaSolo,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -640,7 +641,14 @@ export const wingRecordsData: IWingDataRecords[] = [
     bosses: [
       {
         name: CO,
-        records: [],
+        records: [
+          {
+            raiders: 1,
+            image: DagdaSolo,
+            video: "https://youtu.be/nE_y78ALV98",
+            log: "https://dps.report/imNK-20231109-012528_dagda",
+          },
+        ],
       },
       {
         name: FEBE,
