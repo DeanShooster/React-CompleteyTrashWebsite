@@ -47,6 +47,7 @@ import {
   SH10MEN,
   W45MENV2,
   DagdaSolo,
+  DagdaDUO,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -647,6 +648,12 @@ export const wingRecordsData: IWingDataRecords[] = [
             image: DagdaSolo,
             video: "https://youtu.be/nE_y78ALV98",
             log: "https://dps.report/imNK-20231109-012528_dagda",
+          },
+          {
+            raiders: 2,
+            image: DagdaDUO,
+            video: "https://youtu.be/6X-4I1WjpSw",
+            log: "https://dps.report/vG0z-20231110-194942_dagda",
           },
         ],
       },

@@ -117,3 +117,4 @@ export { default as VG3MEN } from "./images/thumbnails/VG3MEN.jpg";
 export { default as SH10MEN } from "./images/thumbnails/SH10MEN.webp";
 export { default as W45MENV2 } from "./images/thumbnails/W45MENV2.jpg";
 export { default as DagdaSolo } from "./images/thumbnails/DagdaSolo.webp";
+export { default as DagdaDUO } from "./images/thumbnails/Dagda DUO.jpg";

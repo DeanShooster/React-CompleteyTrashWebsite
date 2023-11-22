@@ -4,6 +4,14 @@ export const newsData: INews[] = [
   {
     type: "Record",
     title: "SOTO Strike",
+    text: "DUO Cosmic Observatory in 17:18",
+    image: SOTOStrike,
+    date: new Date(2023, 10, 22),
+    recordName: "SOTO",
+  },
+  {
+    type: "Record",
+    title: "SOTO Strike",
     text: "Solo Cosmic Observatory in 47:30",
     image: SOTOStrike,
     date: new Date(2023, 10, 18),
