@@ -1,6 +1,14 @@
-import { IBSStrike, SOTOStrike, Screen1, WING1, WING2, WING4, WING5 } from "../assets";
+import { IBSStrike, SOTOStrike, Screen1, WING1, WING2, WING4, WING5, WING7 } from "../assets";
 
 export const newsData: INews[] = [
+  {
+    type: "Record",
+    title: "Wing 7",
+    text: "Full Wing 5 Men in 26:23.",
+    image: WING7,
+    date: new Date(2023, 10, 25),
+    recordName: "7",
+  },
   {
     type: "Record",
     title: "SOTO Strike",

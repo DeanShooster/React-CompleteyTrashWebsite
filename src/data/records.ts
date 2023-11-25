@@ -48,6 +48,9 @@ import {
   W45MENV2,
   DagdaSolo,
   DagdaDUO,
+  WING7_5MEN,
+  Sabir5MENV3,
+  QTP5Men,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -426,10 +429,9 @@ export const wingRecordsData: IWingDataRecords[] = [
           },
           {
             raiders: 5,
-            image: Sabir5MEN,
-            video: "https://youtu.be/jMy9Gv18mXA",
-            reddit: "https://www.reddit.com/r/Guildwars2/comments/wda27q/cardinal_sabir_5_men_609_by_completely_trash_ct/",
-            log: "https://dps.report/Wq01-20220730-215344_sabir",
+            image: Sabir5MENV3,
+            video: "https://youtu.be/5JI9D7_seTI",
+            log: "https://dps.report/KWn6-20231118-231325_sabir",
           },
           {
             raiders: 5,
@@ -437,6 +439,13 @@ export const wingRecordsData: IWingDataRecords[] = [
             video: "https://youtu.be/Bfhpv_kzfPo",
             reddit: "https://www.reddit.com/r/Guildwars2/comments/ycy0jp/cardinal_sabir_5_men_by_completely_trash_ct/",
             log: "https://dps.report/oGB3-20220929-215241_sabir",
+          },
+          {
+            raiders: 5,
+            image: Sabir5MEN,
+            video: "https://youtu.be/jMy9Gv18mXA",
+            reddit: "https://www.reddit.com/r/Guildwars2/comments/wda27q/cardinal_sabir_5_men_609_by_completely_trash_ct/",
+            log: "https://dps.report/Wq01-20220730-215344_sabir",
           },
         ],
       },
@@ -450,10 +459,23 @@ export const wingRecordsData: IWingDataRecords[] = [
             reddit: "https://www.reddit.com/r/Guildwars2/comments/12oac8c/qadim_the_peerless_first_ever_trio_kill_by/",
             log: "https://dps.report/wHtl-20230402-210030_qpeer",
           },
+          {
+            raiders: 5,
+            image: QTP5Men,
+            video: "https://youtu.be/8YT43dVUk-o",
+            log: "https://dps.report/1Bl4-20231118-232303_qpeer",
+          },
         ],
       },
     ],
-    fullWing: [],
+    fullWing: [
+      {
+        raiders: 5,
+        image: WING7_5MEN,
+        video: "https://youtu.be/TboadKegXqY",
+        reddit: "https://www.reddit.com/r/Guildwars2/comments/183hedx/wing_7_5_men_by_completely_trash_ct/",
+      },
+    ],
   },
   {
     name: IBS,
