@@ -51,6 +51,7 @@ import {
   WING7_5MEN,
   Sabir5MENV3,
   QTP5Men,
+  CERUS4MEN,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -681,7 +682,14 @@ export const wingRecordsData: IWingDataRecords[] = [
       },
       {
         name: FEBE,
-        records: [],
+        records: [
+          {
+            raiders: 4,
+            image: CERUS4MEN,
+            video: "https://youtu.be/sf1fM3Fcq6Q",
+            log: "https://dps.report/LKMB-20231116-231918_cerus",
+          },
+        ],
       },
     ],
     fullWing: [],
