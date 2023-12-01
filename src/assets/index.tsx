@@ -116,7 +116,7 @@ export { default as VG2MENV2 } from "./images/thumbnails/VG4MENV2.jpg";
 export { default as VG3MEN } from "./images/thumbnails/VG3MEN.jpg";
 export { default as SH10MEN } from "./images/thumbnails/SH10MEN.webp";
 export { default as W45MENV2 } from "./images/thumbnails/W45MENV2.jpg";
-export { default as DagdaSolo } from "./images/thumbnails/DagdaSolo.webp";
+export { default as DagdaSolo } from "./images/thumbnails/DAGDASOLOV2.jpg";
 export { default as DagdaDUO } from "./images/thumbnails/Dagda DUO.jpg";
 export { default as WING7_5MEN } from "./images/thumbnails/Wing7_5MEN.jpg";
 export { default as Sabir5MENV3 } from "./images/thumbnails/Sabir5MenV3.jpg";

@@ -669,8 +669,8 @@ export const wingRecordsData: IWingDataRecords[] = [
           {
             raiders: 1,
             image: DagdaSolo,
-            video: "https://youtu.be/nE_y78ALV98",
-            log: "https://dps.report/imNK-20231109-012528_dagda",
+            video: "https://youtu.be/SFQbAMhHsoQ",
+            log: "https://dps.report/MvZt-20231201-163533_dagda",
           },
           {
             raiders: 2,
