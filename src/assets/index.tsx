@@ -122,3 +122,4 @@ export { default as WING7_5MEN } from "./images/thumbnails/Wing7_5MEN.jpg";
 export { default as Sabir5MENV3 } from "./images/thumbnails/Sabir5MenV3.jpg";
 export { default as QTP5Men } from "./images/thumbnails/QTP5Men.jpg";
 export { default as CERUS4MEN } from "./images/thumbnails/Cerus4MEN.jpg";
+export { default as Samarog4MENV2 } from "./images/thumbnails/Samarog4MENV2.webp";

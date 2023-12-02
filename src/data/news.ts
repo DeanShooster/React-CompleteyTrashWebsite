@@ -3,6 +3,14 @@ import { IBSStrike, SOTOStrike, Screen1, WING1, WING2, WING4, WING5, WING7 } fro
 export const newsData: INews[] = [
   {
     type: "Record",
+    title: "Wing 4",
+    text: "Samarog 4 Men in 7:46",
+    image: WING4,
+    date: new Date(2023, 11, 2),
+    recordName: "4",
+  },
+  {
+    type: "Record",
     title: "SOTO Strike",
     text: "Temple of Febe - Cerus by 4 Men in 8:41",
     image: SOTOStrike,

@@ -52,6 +52,7 @@ import {
   Sabir5MENV3,
   QTP5Men,
   CERUS4MEN,
+  Samarog4MENV2,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -310,7 +311,20 @@ export const wingRecordsData: IWingDataRecords[] = [
       },
       {
         name: Sama,
-        records: [{ raiders: 4, image: Samarog4MEN, video: "https://youtu.be/56zPhT0YrrQ", log: "https://dps.report/Erab-20220423-211558_sam" }],
+        records: [
+          {
+            raiders: 4,
+            image: Samarog4MENV2,
+            video: "https://youtu.be/Tp52UGd_ZLo",
+            log: "https://dps.report/WlhN-20231128-001542_sam",
+          },
+          {
+            raiders: 4,
+            image: Samarog4MEN,
+            video: "https://youtu.be/56zPhT0YrrQ",
+            log: "https://dps.report/Erab-20220423-211558_sam",
+          },
+        ],
       },
       {
         name: Deimos,
