@@ -53,6 +53,9 @@ import {
   QTP5Men,
   CERUS4MEN,
   Samarog4MENV2,
+  Pandas2MENV2,
+  BS2MENV2,
+  WOJ2MENV2,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -518,6 +521,12 @@ export const wingRecordsData: IWingDataRecords[] = [
             reddit: "https://www.reddit.com/r/Guildwars2/comments/16p7da5/ibs_strikes_full_clear_2_men_by_completely_trash/",
             log: "https://dps.report/TiAe-20230913-034944_falln",
           },
+          {
+            raiders: 2,
+            image: Pandas2MENV2,
+            video: "https://youtu.be/3pN_5MS7bm4",
+            log: "https://dps.report/Duhf-20231203-004448_falln",
+          },
         ],
       },
       {
@@ -543,6 +552,12 @@ export const wingRecordsData: IWingDataRecords[] = [
             log: "https://dps.report/nk1j-20230913-024627_bone",
           },
           {
+            raiders: 2,
+            image: BS2MENV2,
+            video: "https://youtu.be/eTbE880kGvI",
+            log: "https://dps.report/yWOH-20231202-220019_bone",
+          },
+          {
             raiders: 3,
             image: BS3MEN,
             video: "https://youtu.be/gXfegWo8vrQ",
@@ -560,6 +575,12 @@ export const wingRecordsData: IWingDataRecords[] = [
             video: "https://www.youtube.com/watch?v=VaYy9V9yoNw&t=375s&ab_channel=CompletelyTrash",
             reddit: "https://www.reddit.com/r/Guildwars2/comments/16p7da5/ibs_strikes_full_clear_2_men_by_completely_trash/",
             log: "https://dps.report/NGV1-20230913-044036_whisp",
+          },
+          {
+            raiders: 2,
+            image: WOJ2MENV2,
+            video: "https://youtu.be/sZUGQmcOKIo",
+            log: "https://dps.report/AEcw-20231202-230155_whisp",
           },
           {
             raiders: 3,

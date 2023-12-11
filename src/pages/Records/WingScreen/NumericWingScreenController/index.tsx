@@ -66,6 +66,7 @@ export const NumericWingScreenController = ({ wingStrikeData, setEncounter }: IN
   }, [queryTargetSearch, setEncounter]);
 
   const wingClassHandler = (wingStrikeNumber: number) => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
     if (wingStrikeData.name === encounter[wingStrikeNumber].name) return;
     else setEncounter(encounter[wingStrikeNumber]);
   };
@@ -77,7 +78,7 @@ export const NumericWingScreenController = ({ wingStrikeData, setEncounter }: IN
         const wingNumber = wingStrikeName.charAt(wingStrikeName.length - 1);
         return (
           <div key={index} onClick={() => wingClassHandler(index)} className={wingStrikeName === wingStrikeData.name ? "active-wing-strike" : undefined}>
-            {isNumber(wingNumber) ? wingNumber : wingStrike.wingName.substring(0, 3)}
+            {isNumber(wingNumber) ? wingNumber : wingStrike.wingName.substring(0, 4)}
           </div>
         );
       })}
