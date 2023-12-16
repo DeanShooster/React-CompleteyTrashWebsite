@@ -56,6 +56,7 @@ import {
   Pandas2MENV2,
   BS2MENV2,
   WOJ2MENV2,
+  SABIR4MENV2,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -438,6 +439,12 @@ export const wingRecordsData: IWingDataRecords[] = [
       {
         name: Sabir,
         records: [
+          {
+            raiders: 4,
+            image: SABIR4MENV2,
+            video: "https://youtu.be/DSCU6-2cYk4",
+            log: "https://dps.report/uO8I-20231125-221748_sabir",
+          },
           {
             raiders: 4,
             image: Sabir4MEN,
