@@ -57,6 +57,7 @@ import {
   BS2MENV2,
   WOJ2MENV2,
   SABIR4MENV2,
+  FreezieDUOV2,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -608,6 +609,12 @@ export const wingRecordsData: IWingDataRecords[] = [
       {
         name: Freezie,
         records: [
+          {
+            raiders: 2,
+            image: FreezieDUOV2,
+            video: "https://youtu.be/oYFPgYWGlvQ",
+            log: "https://dps.report/AtI3-20231226-002521_frezi",
+          },
           {
             raiders: 2,
             image: FREEZIE,

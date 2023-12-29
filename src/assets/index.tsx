@@ -127,3 +127,4 @@ export { default as Pandas2MENV2 } from "./images/thumbnails/Pandas2MENV2.jpg";
 export { default as BS2MENV2 } from "./images/thumbnails/BS2MENV2.jpg";
 export { default as WOJ2MENV2 } from "./images/thumbnails/WOJ2MENV2.jpg";
 export { default as SABIR4MENV2 } from "./images/thumbnails/SABIR4MENV2.jpg";
+export { default as FreezieDUOV2 } from "./images/thumbnails/FreezieDUOV2.webp";
