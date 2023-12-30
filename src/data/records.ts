@@ -58,6 +58,7 @@ import {
   WOJ2MENV2,
   SABIR4MENV2,
   FreezieDUOV2,
+  Adina3MENV2,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -421,6 +422,12 @@ export const wingRecordsData: IWingDataRecords[] = [
       {
         name: Adina,
         records: [
+          {
+            raiders: 3,
+            image: Adina3MENV2,
+            video: "https://youtu.be/yiPwBFAPY6A",
+            log: "https://dps.report/pJ3G-20231229-025817_adina",
+          },
           {
             raiders: 3,
             image: Adina3MEN,
