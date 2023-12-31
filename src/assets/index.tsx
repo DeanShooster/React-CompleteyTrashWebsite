@@ -132,3 +132,4 @@ export { default as Adina3MENV2 } from "./images/thumbnails/Adina3MENV2.jpg";
 export { default as AHDUO } from "./images/thumbnails/AHDUO.jpg";
 export { default as AnkkaDUO } from "./images/thumbnails/AnkkaDUOV2.jpg";
 export { default as KODUO } from "./images/thumbnails/KODUO.jpg";
+export { default as OLCDUO } from "./images/thumbnails/OLCUDO.jpg";

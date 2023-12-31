@@ -62,6 +62,7 @@ import {
   AHDUO,
   AnkkaDUO,
   KODUO,
+  OLCDUO,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -738,6 +739,12 @@ export const wingRecordsData: IWingDataRecords[] = [
             video: "https://youtu.be/LxOneLQvVsc",
             reddit: "https://www.reddit.com/r/Guildwars2/comments/12u6mql/olc_fastest_solo_by_completely_trash_ct/",
             log: "https://dps.report/cQ9X-20230416-183742_olc",
+          },
+          {
+            raiders: 2,
+            image: OLCDUO,
+            video: "https://youtu.be/DDy9bmMp1Hk",
+            log: "https://dps.report/wjq3-20231215-225406_olc",
           },
         ],
       },
