@@ -1,6 +1,14 @@
-import { IBSStrike, SOTOStrike, Screen1, WING1, WING2, WING4, WING5, WING7 } from "../assets";
+import { EODStrike, IBSStrike, SOTOStrike, Screen1, WING1, WING2, WING4, WING5, WING7 } from "../assets";
 
 export const newsData: INews[] = [
+  {
+    type: "Record",
+    title: "EOD Strikes",
+    text: "DUO Kills of Aetherblade(13:08), Ankka Junkyard(11:31), Minister Li (23:51) and OLC(16:55)",
+    image: EODStrike,
+    date: new Date(2024, 0, 1),
+    recordName: "EOD",
+  },
   {
     type: "Record",
     title: "Wing 7",

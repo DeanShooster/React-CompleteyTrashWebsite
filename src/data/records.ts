@@ -59,6 +59,9 @@ import {
   SABIR4MENV2,
   FreezieDUOV2,
   Adina3MENV2,
+  AHDUO,
+  AnkkaDUO,
+  KODUO,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -640,7 +643,15 @@ export const wingRecordsData: IWingDataRecords[] = [
     bosses: [
       {
         name: AH,
-        records: [{ raiders: 3, image: AH3MEN, video: "https://youtu.be/-HmKhQm_BEk", reddit: "", log: "https://dps.report/wKsB-20220522-001201_trin" }],
+        records: [
+          {
+            raiders: 2,
+            image: AHDUO,
+            video: "https://youtu.be/vtrHvsIoCrY",
+            log: "https://dps.report/7Tkp-20231215-233559_trin",
+          },
+          { raiders: 3, image: AH3MEN, video: "https://youtu.be/-HmKhQm_BEk", reddit: "", log: "https://dps.report/wKsB-20220522-001201_trin" },
+        ],
       },
       {
         name: Ankka,
@@ -654,12 +665,17 @@ export const wingRecordsData: IWingDataRecords[] = [
           },
           {
             raiders: 2,
+            image: AnkkaDUO,
+            video: "https://youtu.be/sXb_yqnF-7s",
+            log: "https://dps.report/ZJmh-20231215-220344_ankka",
+          },
+          {
+            raiders: 2,
             image: Ankka2MEN,
             video: "https://youtu.be/M-qXq5IzY0E",
             reddit: "https://www.reddit.com/r/Guildwars2/comments/12hm1s1/ankka_duo_by_completely_trash_ct/",
             log: "https://dps.report/Rmln-20230407-010227_ankka",
           },
-          { raiders: 3, image: Ankka3MEN, video: "https://youtu.be/uf5jc1zDxH4", log: "https://dps.report/OuWS-20220512-223410_ankka" },
           {
             raiders: 3,
             image: Ankka3MENV2,
@@ -667,6 +683,7 @@ export const wingRecordsData: IWingDataRecords[] = [
             reddit: "https://www.reddit.com/r/Guildwars2/comments/15fc6dd/ankka_trio_by_completely_trash_ct/",
             log: "https://dps.report/XucL-20230731-003310_ankka",
           },
+          { raiders: 3, image: Ankka3MEN, video: "https://youtu.be/uf5jc1zDxH4", log: "https://dps.report/OuWS-20220512-223410_ankka" },
         ],
       },
       {
@@ -679,7 +696,18 @@ export const wingRecordsData: IWingDataRecords[] = [
             reddit: "https://www.reddit.com/r/Guildwars2/comments/14k7jl1/minister_li_ko_solo_by_completely_trash_ct/",
             log: "https://dps.report/f2rk-20230626-041505_li",
           },
-          { raiders: 3, image: KO3MEN, video: "https://youtu.be/mGEDp3D93gE", log: "https://dps.report/a1Zi-20220515-001024_li" },
+          {
+            raiders: 2,
+            image: KODUO,
+            video: "https://youtu.be/nfqgpHtRXas",
+            log: "https://dps.report/Vrqj-20231216-020702_li",
+          },
+          {
+            raiders: 3,
+            image: KO3MEN,
+            video: "https://youtu.be/mGEDp3D93gE",
+            log: "https://dps.report/a1Zi-20220515-001024_li",
+          },
         ],
       },
       {

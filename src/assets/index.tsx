@@ -129,3 +129,6 @@ export { default as WOJ2MENV2 } from "./images/thumbnails/WOJ2MENV2.jpg";
 export { default as SABIR4MENV2 } from "./images/thumbnails/SABIR4MENV2.jpg";
 export { default as FreezieDUOV2 } from "./images/thumbnails/FreezieDUOV2.webp";
 export { default as Adina3MENV2 } from "./images/thumbnails/Adina3MENV2.jpg";
+export { default as AHDUO } from "./images/thumbnails/AHDUO.jpg";
+export { default as AnkkaDUO } from "./images/thumbnails/AnkkaDUOV2.jpg";
+export { default as KODUO } from "./images/thumbnails/KODUO.jpg";
