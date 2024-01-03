@@ -3,6 +3,14 @@ import { EODStrike, IBSStrike, SOTOStrike, Screen1, WING1, WING2, WING4, WING5, 
 export const newsData: INews[] = [
   {
     type: "Record",
+    title: "Wing 7",
+    text: "Cardinal Adina 2 men in 13:22",
+    image: WING7,
+    date: new Date(2024, 0, 3),
+    recordName: "7",
+  },
+  {
+    type: "Record",
     title: "EOD Strikes",
     text: "DUO Kills of Aetherblade(13:08), Ankka Junkyard(11:31), Minister Li (23:51) and OLC(16:55)",
     image: EODStrike,

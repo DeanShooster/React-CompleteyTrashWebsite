@@ -133,3 +133,4 @@ export { default as AHDUO } from "./images/thumbnails/AHDUO.jpg";
 export { default as AnkkaDUO } from "./images/thumbnails/AnkkaDUOV2.jpg";
 export { default as KODUO } from "./images/thumbnails/KODUO.jpg";
 export { default as OLCDUO } from "./images/thumbnails/OLCUDO.jpg";
+export { default as DUOADINA } from "./images/thumbnails/DUOAdina.webp";

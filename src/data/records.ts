@@ -63,6 +63,7 @@ import {
   AnkkaDUO,
   KODUO,
   OLCDUO,
+  DUOADINA,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -426,6 +427,13 @@ export const wingRecordsData: IWingDataRecords[] = [
       {
         name: Adina,
         records: [
+          {
+            raiders: 2,
+            image: DUOADINA,
+            video: "https://youtu.be/m5aMMWh92sA",
+            log: "https://dps.report/gyzV-20240102-012033_adina",
+            reddit: "https://www.reddit.com/r/Guildwars2/comments/18xly1n/cardinal_adina_duo_by_completely_trash_ct_necro_op/",
+          },
           {
             raiders: 3,
             image: Adina3MENV2,
