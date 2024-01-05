@@ -134,3 +134,4 @@ export { default as AnkkaDUO } from "./images/thumbnails/AnkkaDUOV2.jpg";
 export { default as KODUO } from "./images/thumbnails/KODUO.jpg";
 export { default as OLCDUO } from "./images/thumbnails/OLCUDO.jpg";
 export { default as DUOADINA } from "./images/thumbnails/DUOAdina.webp";
+export { default as VG3MENV2 } from "./images/thumbnails/VG3MenV2.jpg";
