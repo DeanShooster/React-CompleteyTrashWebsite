@@ -6,7 +6,7 @@ export const newsData: INews[] = [
     title: "Wing 1",
     text: "Vale Guardian 3 Men + DUO kills in 16:42 and 5:33",
     image: WING1,
-    date: new Date(),
+    date: new Date(2024, 0, 20),
     recordName: "1",
   },
   {

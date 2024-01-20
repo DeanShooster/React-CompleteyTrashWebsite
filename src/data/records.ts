@@ -65,6 +65,7 @@ import {
   OLCDUO,
   DUOADINA,
   VG3MENV2,
+  VGDUO,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -180,6 +181,12 @@ export const wingRecordsData: IWingDataRecords[] = [
       {
         name: VG,
         records: [
+          {
+            raiders: 2,
+            image: VGDUO,
+            video: "https://youtu.be/qvfE-v2AZPM",
+            log: "https://dps.report/yWE5-20240104-235208_vg",
+          },
           {
             raiders: 3,
             image: VG3MENV2,
