@@ -66,6 +66,7 @@ import {
   DUOADINA,
   VG3MENV2,
   VGDUO,
+  DHUUM4MEN,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -412,7 +413,15 @@ export const wingRecordsData: IWingDataRecords[] = [
       },
       {
         name: Dhuum,
-        records: [],
+        records: [
+          {
+            raiders: 4,
+            image: DHUUM4MEN,
+            video: "https://youtu.be/Kz_JhGxPkfY",
+            reddit: "https://www.reddit.com/r/Guildwars2/comments/1ahue1i/dhuum_4_men_completely_trash_ct_healers_overrated/",
+            log: "https://dps.report/GeHJ-20240128-201403_dhuum",
+          },
+        ],
       },
     ],
     fullWing: [],
