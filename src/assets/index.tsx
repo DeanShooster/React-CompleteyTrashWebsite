@@ -66,7 +66,7 @@ export { default as Draz } from "./images/members/Draz.webp";
 export { default as Stein } from "./images/members/Stein.webp";
 export { default as Nerd } from "./images/members/Nerdcore.webp";
 export { default as Vertox } from "./images/members/Vertox.webp";
-export { default as ODB } from "./images/members/ODB.webp";
+export { default as Broc } from "./images/members/Broc.webp";
 
 // Wing Records Thumbnails
 export { default as W15MEN } from "./images/thumbnails/w1 5 men.jpg";

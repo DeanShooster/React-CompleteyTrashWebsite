@@ -1,4 +1,4 @@
-import { Creep, Dean, Draz, Kylio, Moon, Nerd, ODB, Stein, Vertox } from "../assets";
+import { Broc, Creep, Dean, Draz, Kylio, Moon, Nerd, Stein, Vertox } from "../assets";
 
 export const guildMembers: IMember[] = [
   {
@@ -19,12 +19,12 @@ export const guildMembers: IMember[] = [
     image: Kylio,
     info: "I could not think of anything clever to say :( because I'm empty inside.",
   },
-  {
-    name: "Creep",
-    accountName: "ThaCreep.1705",
-    image: Creep,
-    info: "Mesmer enjoyer, completionist/achievement whore, button presser, meme lord and completely trash in everything(according to Dean).",
-  },
+  // {
+  //   name: "Creep",
+  //   accountName: "ThaCreep.1705",
+  //   image: Creep,
+  //   info: "Mesmer enjoyer, completionist/achievement whore, button presser, meme lord and completely trash in everything(according to Dean).",
+  // },
   {
     name: "Draz",
     accountName: "onepiece.2874",
@@ -50,10 +50,10 @@ export const guildMembers: IMember[] = [
     info: "Elementalist enjoyer (especially weaver), on-and-off sPvP enthusiast, conjure hater and gift of exploration farming masochist.",
   },
   {
-    name: "ODB",
-    accountName: "Namascoyote.9153",
-    image: ODB,
-    info: "Intense gaming enjoyer, Revenant lover, constantly joking over everything , i hate ppl who take everything seriously. PS: SEND NUDES!!",
+    name: "Broc",
+    accountName: "Xeros The Mighty.4765",
+    image: Broc,
+    info: "All grandmas love me",
   },
 ];
 
