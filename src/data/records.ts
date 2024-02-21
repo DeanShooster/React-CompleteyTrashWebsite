@@ -67,6 +67,8 @@ import {
   VG3MENV2,
   VGDUO,
   DHUUM4MEN,
+  CA5MEN,
+  TWINS5MEN,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -431,11 +433,25 @@ export const wingRecordsData: IWingDataRecords[] = [
     bosses: [
       {
         name: CA,
-        records: [],
+        records: [
+          {
+            raiders: 5,
+            image: CA5MEN,
+            video: "https://youtu.be/nyqoSnEfXT0",
+            log: "https://dps.report/ripw-20240216-225758_ca",
+          },
+        ],
       },
       {
         name: Twins,
-        records: [],
+        records: [
+          {
+            raiders: 5,
+            image: TWINS5MEN,
+            video: "https://youtu.be/ybd-JNbr4Yk",
+            log: "https://dps.report/FVDS-20240203-225926_twins",
+          },
+        ],
       },
       {
         name: Qadim,

@@ -137,3 +137,5 @@ export { default as DUOADINA } from "./images/thumbnails/DUOAdina.webp";
 export { default as VG3MENV2 } from "./images/thumbnails/VG3MenV2.jpg";
 export { default as VGDUO } from "./images/thumbnails/VGDUO.jpg";
 export { default as DHUUM4MEN } from "./images/thumbnails/DHUUM4MEN.jpg";
+export { default as CA5MEN } from "./images/thumbnails/CA5MEN.png";
+export { default as TWINS5MEN } from "./images/thumbnails/TWINS5MEN.png";

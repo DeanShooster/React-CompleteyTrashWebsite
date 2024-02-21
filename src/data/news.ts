@@ -1,6 +1,14 @@
-import { EODStrike, IBSStrike, SOTOStrike, Screen1, WING1, WING2, WING4, WING5, WING7 } from "../assets";
+import { EODStrike, IBSStrike, SOTOStrike, Screen1, WING1, WING2, WING4, WING5, WING6, WING7 } from "../assets";
 
 export const newsData: INews[] = [
+  {
+    type: "Record",
+    title: "Wing 6",
+    text: "5 Men: Wing 6 in 22:36, CA in 2:47 and Twin Largos in 5:00",
+    image: WING6,
+    date: new Date(),
+    recordName: "6",
+  },
   {
     type: "Record",
     title: "Wing 5",
