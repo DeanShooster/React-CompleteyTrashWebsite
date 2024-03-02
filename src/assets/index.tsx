@@ -2,6 +2,7 @@
 export { default as cTLogo } from "./images/logo.png";
 export { default as SCLogo } from "./images/logoSC.png";
 export { default as HSLogo } from "./images/logoHS.png";
+export { default as WingmanLogo } from "./images/logoWingman.webp";
 export { default as geoGuesser } from "./images/geoguesser.jpg";
 export { default as fractalBingo } from "./images/fractalbingo.webp";
 export { default as borderTop } from "./images/border-top.png";

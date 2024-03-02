@@ -2,11 +2,18 @@ import { EODStrike, IBSStrike, SOTOStrike, Screen1, WING1, WING2, WING4, WING5, 
 
 export const newsData: INews[] = [
   {
+    type: "Update",
+    title: "Visuals and Wingman",
+    text: "A few visual adjustments ,added Wingman to home screen and fixed a bug with clickable objects.",
+    image: Screen1,
+    date: new Date(2024, 3, 3),
+  },
+  {
     type: "Record",
     title: "Wing 6",
     text: "5 Men: Wing 6 in 22:36, CA in 2:47 and Twin Largos in 5:00",
     image: WING6,
-    date: new Date(),
+    date: new Date(2024, 2, 3),
     recordName: "6",
   },
   {

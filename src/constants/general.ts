@@ -6,7 +6,6 @@ export const paginationNumber: number = 8;
 
 // Text Msgs
 export const clipboardTitle = "Clipboard Bingo Image";
-export const clipboardError = "Could not clipboard the image. Something went wrong.";
 
 // Local
 
