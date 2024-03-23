@@ -70,6 +70,7 @@ import {
   CA5MEN,
   TWINS5MEN,
   WING65MEN,
+  WING55MEN,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -427,7 +428,14 @@ export const wingRecordsData: IWingDataRecords[] = [
         ],
       },
     ],
-    fullWing: [],
+    fullWing: [
+      {
+        raiders: 5,
+        image: WING55MEN,
+        video: "https://youtu.be/mkGCkmmZYh4",
+        reddit: "https://www.reddit.com/r/Guildwars2/comments/1blr87x/wing_5_5_men_by_completely_trash_ct/",
+      },
+    ],
   },
   {
     name: w6,
