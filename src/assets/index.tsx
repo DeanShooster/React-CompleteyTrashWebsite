@@ -17,6 +17,7 @@ export { default as Renegade } from "./images/specArt/Renegade.webp";
 export { default as Mesmer } from "./images/specArt/Mirage.webp";
 export { default as Untamed } from "./images/specArt/Untamed.png";
 export { default as Blish } from "./images/specArt/Blish.png";
+export { default as GIF_LOGO } from "./images/GIF Logo 2.gif";
 
 // General SVG
 export { default as Discord } from "./svg/Discord.svg";
