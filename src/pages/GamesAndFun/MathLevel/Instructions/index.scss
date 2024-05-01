@@ -1,0 +1,66 @@
+@import "../../../../styles/global.scss";
+
+.instructions-title {
+  margin: 0 0 32px 0;
+
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  font-size: 3rem;
+
+  @media (max-width: $ipad) {
+    margin: 0 0 16px 0;
+    font-size: 2rem;
+  }
+  @media (max-width: $mobile) {
+    font-size: 1.75rem;
+  }
+}
+
+.instructions-container {
+  margin-bottom: 32px;
+
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+
+  @media (max-width: $mobile) {
+    justify-content: space-evenly;
+    gap: 0;
+    row-gap: 32px;
+  }
+
+  & > div {
+    position: relative;
+
+    width: 200px;
+    padding: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid $main-orange;
+    border-radius: 15px;
+
+    text-align: center;
+    font-size: 1.25rem;
+
+    @media (max-width: $ipad) {
+      padding: 8px;
+
+      font-size: 1.15rem;
+    }
+    @media (max-width: $mobile) {
+      width: 150px;
+      font-size: 1rem;
+    }
+
+    span {
+      position: absolute;
+      top: 0;
+      transform: translateY(-100%);
+    }
+  }
+}

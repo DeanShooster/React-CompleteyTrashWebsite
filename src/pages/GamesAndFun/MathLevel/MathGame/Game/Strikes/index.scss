@@ -1,0 +1,13 @@
+.strike-container {
+  display: flex;
+  justify-content: flex-start !important;
+  column-gap: 8px;
+
+  & > h2 {
+    margin-right: 16px !important;
+  }
+
+  & > img {
+    width: 40px;
+  }
+}

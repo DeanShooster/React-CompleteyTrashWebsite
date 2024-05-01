@@ -1,0 +1,17 @@
+.math-level-game-container {
+  width: calc(100vw - 64px);
+
+  h1 {
+    margin: 0;
+
+    font-size: 2.25rem;
+    letter-spacing: 2px;
+  }
+
+  & > div {
+    margin-top: 24px;
+
+    display: flex;
+    column-gap: 48px;
+  }
+}

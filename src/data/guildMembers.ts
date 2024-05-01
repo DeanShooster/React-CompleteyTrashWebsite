@@ -1,4 +1,4 @@
-import { Broc, Creep, Dean, Draz, Kylio, Moon, Nerd, Stein, Vertox } from "../assets";
+import { Broc, Creep, Dean, Draz, Kylio, Moon, Nerd, Stein, Verone, Vertox } from "../assets";
 
 export const guildMembers: IMember[] = [
   {
@@ -48,6 +48,12 @@ export const guildMembers: IMember[] = [
     accountName: "Vertox.3697",
     image: Vertox,
     info: "Elementalist enjoyer (especially weaver), on-and-off sPvP enthusiast, conjure hater and gift of exploration farming masochist.",
+  },
+  {
+    name: "Verone",
+    accountName: "Verone.7652",
+    image: Verone,
+    info: "Ara Ara",
   },
   {
     name: "Broc",

@@ -5,6 +5,7 @@ export { default as HSLogo } from "./images/logoHS.png";
 export { default as WingmanLogo } from "./images/logoWingman.webp";
 export { default as geoGuesser } from "./images/geoguesser.jpg";
 export { default as fractalBingo } from "./images/fractalbingo.webp";
+export { default as mathLevelBg } from "./images/MathBrain.jpg";
 export { default as borderTop } from "./images/border-top.png";
 export { default as borderRight } from "./images/border-right.png";
 export { default as borderBottom } from "./images/border-bottom.png";
@@ -29,6 +30,10 @@ export { default as EmptyStar } from "./svg/EmptyStar.svg";
 export { default as FilledStar } from "./svg/FilledStar.svg";
 export { default as ArrowCircleRight } from "./svg/ArrowCircleRight.svg";
 export { default as ArrowCircleLeft } from "./svg/ArrowCircleLeft.svg";
+export { default as Brain } from "./svg/Brain.svg";
+export { default as Checkmark } from "./svg/Checkmark.svg";
+export { default as markerX } from "./svg/Xmarker.svg";
+export { default as Cross } from "./svg/Cross.svg";
 
 // Backgrounds
 export { default as HomePageBG } from "./images/homepageBG.jpg";
@@ -69,6 +74,16 @@ export { default as Stein } from "./images/members/Stein.webp";
 export { default as Nerd } from "./images/members/Nerdcore.webp";
 export { default as Vertox } from "./images/members/Vertox.webp";
 export { default as Broc } from "./images/members/Broc.webp";
+export { default as Verone } from "./images/members/Verone.webp";
+
+// Math Questions
+export { default as CarSeries } from "./images/mathQuestions/CarQ.png";
+export { default as NumberGraph } from "./images/mathQuestions/NumberGraphQ.png";
+export { default as TriangleAngleOne } from "./images/mathQuestions/TriangleQ.png";
+export { default as RectangleAngleOne } from "./images/mathQuestions/RectangleQ.png";
+export { default as SquareTwo } from "./images/mathQuestions/SquareQ.png";
+export { default as PrismTwo } from "./images/mathQuestions/PrismQ.png";
+export { default as ParallelTwo } from "./images/mathQuestions/PararrelQ.png";
 
 // Wing Records Thumbnails
 export { default as W15MEN } from "./images/thumbnails/w1 5 men.jpg";
