@@ -1,4 +1,4 @@
-import { Broc, Creep, Dean, Draz, Kylio, Moon, Nerd, Stein, Verone, Vertox } from "../assets";
+import { Dean, Draz, Kylio, Moon, Nerd, Stein, Verone, Vertox } from "../assets";
 
 export const guildMembers: IMember[] = [
   {
@@ -19,12 +19,6 @@ export const guildMembers: IMember[] = [
     image: Kylio,
     info: "I could not think of anything clever to say :( because I'm empty inside.",
   },
-  // {
-  //   name: "Creep",
-  //   accountName: "ThaCreep.1705",
-  //   image: Creep,
-  //   info: "Mesmer enjoyer, completionist/achievement whore, button presser, meme lord and completely trash in everything(according to Dean).",
-  // },
   {
     name: "Draz",
     accountName: "onepiece.2874",
@@ -54,12 +48,6 @@ export const guildMembers: IMember[] = [
     accountName: "Verone.7652",
     image: Verone,
     info: "Ara Ara",
-  },
-  {
-    name: "Broc",
-    accountName: "Xeros The Mighty.4765",
-    image: Broc,
-    info: "All grandmas love me",
   },
 ];
 

@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { aboutPage, addonsPage, fractalBingo, gameAndFunPage, homePage, mathLevel, newsPage, policyPage, recordsPage, recruitmentPage } from "./constants/routing";
+import { aboutPage, addonsPage, fractalBingo, gameAndFunPage, homePage, newsPage, policyPage, recordsPage, recruitmentPage } from "./constants/routing";
 
 import useWindowSize from "./hooks/useWindowSize";
 import { minWidthSupport } from "./constants/general";
@@ -22,7 +22,6 @@ import { Page404 } from "./pages/Page404";
 import "./App.scss";
 import { BackgroundBorderLineEffect } from "./components/BackgroundBorderLineEffect";
 import { WeeklyNewsBubble } from "./components/WeeklyNewsBubble";
-import { MathLevel } from "./pages/GamesAndFun/MathLevel";
 
 function App() {
   const { windowSize } = useWindowSize();
@@ -39,7 +38,6 @@ function App() {
           <Route path={recordsPage} element={<Records />} />
           <Route path={gameAndFunPage} element={<GamesAndFun />}>
             <Route path={`${gameAndFunPage}/${fractalBingo}`} element={<FractalBingo />} />
-            <Route path={`${gameAndFunPage}/${mathLevel}`} element={<MathLevel />} />
           </Route>
           <Route path={addonsPage} element={<Addons />}>
             <Route path={`${addonsPage}/:addon`} element={<AddonInformation />} />

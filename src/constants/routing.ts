@@ -16,7 +16,6 @@ export const policyPage = "/Policy";
 
 // Nested Routes
 export const fractalBingo = "FractalBingo";
-export const mathLevel = "Math Level";
 
 // Queries
 export const recordTarget = "target";

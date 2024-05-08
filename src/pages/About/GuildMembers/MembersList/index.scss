@@ -1,15 +1,25 @@
-@import './../../../../styles/global.scss';
+@import "./../../../../styles/global.scss";
 
-.members-list-container{
+.members-list-container {
+  width: 100%;
+  padding-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+
+  @media (max-width: $mobile) {
+    gap: 30px;
+  }
+
+  .bg-filter-wall {
     width: 100%;
-    padding-bottom: 25px;
-    display: flex; flex-wrap: wrap; justify-content: center; gap: 25px;
-
-    @media(max-width: $mobile){ gap: 30px;}
-
-    .bg-filter-wall{
-        width: 100%; height: 100%; margin: 0;
-        position: absolute; left: 0; top: 0; z-index: 0;
-        backdrop-filter: brightness(65%);
-    }
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    backdrop-filter: brightness(65%);
+  }
 }

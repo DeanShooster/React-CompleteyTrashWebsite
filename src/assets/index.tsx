@@ -30,10 +30,6 @@ export { default as EmptyStar } from "./svg/EmptyStar.svg";
 export { default as FilledStar } from "./svg/FilledStar.svg";
 export { default as ArrowCircleRight } from "./svg/ArrowCircleRight.svg";
 export { default as ArrowCircleLeft } from "./svg/ArrowCircleLeft.svg";
-export { default as Brain } from "./svg/Brain.svg";
-export { default as Checkmark } from "./svg/Checkmark.svg";
-export { default as markerX } from "./svg/Xmarker.svg";
-export { default as Cross } from "./svg/Cross.svg";
 
 // Backgrounds
 export { default as HomePageBG } from "./images/homepageBG.jpg";
@@ -68,7 +64,6 @@ export { default as FRACTAL } from "./images/fractals/fractal.jpg";
 export { default as Dean } from "./images/members/Dean.webp";
 export { default as Moon } from "./images/members/Moon.webp";
 export { default as Kylio } from "./images/members/Kylio.webp";
-export { default as Creep } from "./images/members/Creep.webp";
 export { default as Draz } from "./images/members/Draz.webp";
 export { default as Stein } from "./images/members/Stein.webp";
 export { default as Nerd } from "./images/members/Nerdcore.webp";
