@@ -68,3 +68,5 @@ export const addonLinks: IAddon[] = [
   { name: "Healing Stats", url: "https://github.com/Krappa322/arcdps_healing_stats", image: Untamed, data: healingStats },
   { name: "Blish", url: "https://blishhud.com", image: Blish, data: blish },
 ];
+
+export const utilsLinks: string[] = ["Encounters Stopwatch"];

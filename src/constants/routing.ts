@@ -14,8 +14,10 @@ export const recruitmentPage = "/Recruitment";
 export const aboutPage = "/About";
 export const policyPage = "/Policy";
 
-// Nested Routes
+// Nested Routes Games&Fun
 export const fractalBingo = "FractalBingo";
+// Nested Routes Utils
+export const encountersStopwatch = "Encounters Stopwatch";
 
 // Queries
 export const recordTarget = "target";

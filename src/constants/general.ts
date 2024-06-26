@@ -8,5 +8,7 @@ export const paginationNumber: number = 8;
 export const clipboardTitle = "Clipboard Bingo Image";
 
 // Local
-
 export const ctNews = "cT-news";
+
+// Style
+export const activeLinkColor = "#e08821";

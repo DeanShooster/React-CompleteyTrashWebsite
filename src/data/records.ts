@@ -72,6 +72,7 @@ import {
   WING65MEN,
   WING55MEN,
   WING35MEN,
+  SLOTH4MEN,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -270,7 +271,14 @@ export const wingRecordsData: IWingDataRecords[] = [
     bosses: [
       {
         name: Sloth,
-        records: [],
+        records: [
+          {
+            raiders: 4,
+            image: SLOTH4MEN,
+            video: "https://youtu.be/Q2mXGcN7fDQ",
+            log: "https://dps.report/NmCZ-20240615-003458_sloth",
+          },
+        ],
       },
       {
         name: Trio,

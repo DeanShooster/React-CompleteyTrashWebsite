@@ -144,3 +144,4 @@ export { default as TWINS5MEN } from "./images/thumbnails/TWINS5MEN.png";
 export { default as WING65MEN } from "./images/thumbnails/WING65MEN.jpg";
 export { default as WING55MEN } from "./images/thumbnails/W55MEN.jpg";
 export { default as WING35MEN } from "./images/thumbnails/W35MEN.jpg";
+export { default as SLOTH4MEN } from "./images/thumbnails/SLOTH4MEN.jpg";

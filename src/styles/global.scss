@@ -1,16 +1,16 @@
-@font-face{
-    font-family: Poppins;
-    src: url('../../public/Poppins-Light.ttf') format('trueType');
+@font-face {
+  font-family: Poppins;
+  src: url("../../public/Poppins-Light.ttf") format("trueType");
 }
 
 // Font Theme
-$main-font: 'Poppins';
+$main-font: "Poppins";
 
 // Padding Header Fix
 $padding-top-header-fix: 8rem;
 
 // Color Themes
-$main-color: #FFFFFF;
+$main-color: #ffffff;
 $sub-color: #dbdbdb;
 $background-theme: #0e0e0e;
 $main-orange: #e08821;
@@ -21,32 +21,54 @@ $mobile: 600px;
 $min-mobile-bg-height: 475px;
 
 // Mixins
-@mixin bright-hover-effect{
-    &:hover{ cursor: pointer; 
-    transform: scale(1.05); transition: .5s; 
-    filter:brightness(150%);}
+@mixin bright-hover-effect {
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+    filter: brightness(150%);
+  }
 }
 
-@mixin cancel-hover{
-    &:hover{ cursor: auto !important; }
-    transform: scale(1) !important; transition: none !important;
-    filter:brightness(100%) !important;
+@mixin cancel-hover {
+  &:hover {
+    cursor: auto !important;
+  }
+  transform: scale(1) !important;
+  transition: none !important;
+  filter: brightness(100%) !important;
 }
 
-@mixin absoluteCenter{ position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); }
+@mixin absoluteCenter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
-@mixin button{
-    padding: 10px 20px;
-    color: $main-orange; background-color: transparent;
-    font-size: 1.5rem; font-family: cursive; white-space: nowrap;
-    border-radius: 12px; border: none; outline: 1px solid $main-orange;
-    transition: .5s;
+@mixin button {
+  padding: 10px 20px;
+  color: $main-orange;
+  background-color: transparent;
+  font-size: 1.5rem;
+  font-family: cursive;
+  white-space: nowrap;
+  border-radius: 12px;
+  border: none;
+  outline: 1px solid $main-orange;
+  transition: 0.5s;
 
-    @media(max-width: $mobile){ font-size: 1rem; padding: 5px 10px; }
+  @media (max-width: $mobile) {
+    font-size: 1rem;
+    padding: 5px 10px;
+  }
 
-    &:hover{
-        cursor: pointer;
-        background-color: $main-orange; color: rgba(255, 255, 255, 0.75);
-        transform: scale(.95); transition: .5s;
-    }
+  &:hover {
+    cursor: pointer;
+    background-color: $main-orange;
+    color: rgba(255, 255, 255, 0.75);
+    outline: 1px solid $main-orange;
+    transform: scale(0.95);
+    transition: 0.5s;
+  }
 }
