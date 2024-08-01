@@ -73,6 +73,8 @@ import {
   WING55MEN,
   WING35MEN,
   SLOTH4MEN,
+  SH4MEN,
+  SH3MEN,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -404,6 +406,19 @@ export const wingRecordsData: IWingDataRecords[] = [
             video: "https://youtu.be/Sc_ETy4KL7M",
             reddit: "https://www.reddit.com/r/Guildwars2/comments/16sj1sz/soulless_horror_speedrun_by_ct_ln_qt_friends/",
             log: "https://dps.report/qRGs-20230926-013723_sh",
+          },
+          {
+            raiders: 3,
+            image: SH3MEN,
+            video: "https://youtu.be/HGIzhjkC_wE",
+            reddit: "https://www.reddit.com/r/Guildwars2/comments/1ehdkzf/soulless_horror_3_men_by_completely_trash_ct_no/",
+            log: "https://dps.report/tw01-20240727-000319_sh",
+          },
+          {
+            raiders: 4,
+            image: SH4MEN,
+            video: "https://youtu.be/Eg0q1QwM73w",
+            log: "https://dps.report/d3QT-20240401-222922_sh",
           },
         ],
       },
