@@ -75,6 +75,7 @@ import {
   SLOTH4MEN,
   SH4MEN,
   SH3MEN,
+  VG4MENV3,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -207,6 +208,13 @@ export const wingRecordsData: IWingDataRecords[] = [
             image: VG3MEN,
             video: "https://youtu.be/5xnYcXLNsQY",
             log: "https://dps.report/l72n-20230914-005152_vg",
+          },
+          {
+            raiders: 4,
+            image: VG4MENV3,
+            video: "https://youtu.be/UPJTlMZ-igw",
+            log: "https://dps.report/RoqH-20240811-183835_vg",
+            isNew: true,
           },
           {
             raiders: 4,
@@ -904,4 +912,5 @@ export interface IEncounterRecord {
   image: string;
   log?: string;
   reddit?: string;
+  isNew?: boolean;
 }

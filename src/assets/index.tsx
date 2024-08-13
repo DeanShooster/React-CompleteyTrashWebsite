@@ -29,6 +29,7 @@ export { default as EmptyStar } from "./svg/EmptyStar.svg";
 export { default as FilledStar } from "./svg/FilledStar.svg";
 export { default as ArrowCircleRight } from "./svg/ArrowCircleRight.svg";
 export { default as ArrowCircleLeft } from "./svg/ArrowCircleLeft.svg";
+export { default as NewBadge } from "./svg/NewBadge.svg";
 
 // Backgrounds
 export { default as HomePageBG } from "./images/homepageBG.jpg";
@@ -147,3 +148,4 @@ export { default as WING35MEN } from "./images/thumbnails/W35MEN.jpg";
 export { default as SLOTH4MEN } from "./images/thumbnails/SLOTH4MEN.jpg";
 export { default as SH4MEN } from "./images/thumbnails/SH4MEN.jpg";
 export { default as SH3MEN } from "./images/thumbnails/SH3MEN.jpg";
+export { default as VG4MENV3 } from "./images/thumbnails/VG4MENV3.jpg";

@@ -3,6 +3,21 @@ import { EODStrike, IBSStrike, SOTOStrike, Screen1, WING1, WING2, WING3, WING4, 
 export const newsData: INews[] = [
   {
     type: "Record",
+    title: "Wing 1",
+    text: "Vale Guardian 4 Men with no heal in 3:28",
+    image: WING1,
+    date: new Date(2024, 7, 13),
+    recordName: "1",
+  },
+  {
+    type: "Update",
+    title: `"New" Card Note`,
+    text: `Added a "New" card note to fresh records in order to avoid looking them upon redirection.`,
+    image: Screen1,
+    date: new Date(2024, 7, 13),
+  },
+  {
+    type: "Record",
     title: "Wing 5",
     text: "Soulless Horror 3/4 Men with no heal!",
     image: WING5,

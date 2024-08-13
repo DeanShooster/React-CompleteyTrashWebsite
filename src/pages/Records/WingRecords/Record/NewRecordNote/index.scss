@@ -1,0 +1,22 @@
+.new-record-note-wrapper {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  z-index: 100;
+
+  animation: pumping 1.25s linear infinite;
+
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@keyframes pumping {
+  25% {
+    transform: scale(0.9);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+}
