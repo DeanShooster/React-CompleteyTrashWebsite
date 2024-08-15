@@ -4,6 +4,14 @@ export const newsData: INews[] = [
   {
     type: "Record",
     title: "Wing 1",
+    text: "Gorseval 4 Men with no heal in 3:45",
+    image: WING1,
+    date: new Date(2024, 7, 15),
+    recordName: "1",
+  },
+  {
+    type: "Record",
+    title: "Wing 1",
     text: "Vale Guardian 4 Men with no heal in 3:28",
     image: WING1,
     date: new Date(2024, 7, 13),

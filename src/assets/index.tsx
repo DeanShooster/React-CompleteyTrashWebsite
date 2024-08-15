@@ -149,3 +149,4 @@ export { default as SLOTH4MEN } from "./images/thumbnails/SLOTH4MEN.jpg";
 export { default as SH4MEN } from "./images/thumbnails/SH4MEN.jpg";
 export { default as SH3MEN } from "./images/thumbnails/SH3MEN.jpg";
 export { default as VG4MENV3 } from "./images/thumbnails/VG4MENV3.jpg";
+export { default as GORSE4MENV3 } from "./images/thumbnails/GORSE4MENV3.jpg";

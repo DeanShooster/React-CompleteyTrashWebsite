@@ -76,6 +76,7 @@ import {
   SH4MEN,
   SH3MEN,
   VG4MENV3,
+  GORSE4MENV3,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -232,6 +233,13 @@ export const wingRecordsData: IWingDataRecords[] = [
       {
         name: Gorse,
         records: [
+          {
+            raiders: 4,
+            image: GORSE4MENV3,
+            video: "https://youtu.be/iYRtIXnj5Po",
+            log: "https://dps.report/2ZyS-20240811-193618_gors",
+            isNew: true,
+          },
           {
             raiders: 4,
             image: Gorse4MEN,
