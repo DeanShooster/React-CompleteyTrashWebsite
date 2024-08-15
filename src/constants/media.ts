@@ -30,7 +30,7 @@ export interface IAddon extends IMedia {
 }
 
 // 3rd Party Media Links
-export const discordLink = "https://discord.gg/H4ZcUT8dw2";
+export const discordLink = "https://discord.gg/UnAtwVshPT";
 export const YouTubeLink = "https://www.youtube.com/channel/UCYQBj51yfa6pKWWId3O_tWQ/videos";
 export const RedditLink = "https://www.reddit.com/user/Completely__Trash";
 export const speedRun = "https://www.speedrun.com/gw2";
