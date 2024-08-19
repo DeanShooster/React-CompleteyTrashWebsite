@@ -77,6 +77,7 @@ import {
   SH3MEN,
   VG4MENV3,
   GORSE4MENV3,
+  DEIMOS4MEN,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -392,7 +393,16 @@ export const wingRecordsData: IWingDataRecords[] = [
       },
       {
         name: Deimos,
-        records: [{ raiders: 5, image: Deimos5MEN, video: "https://youtu.be/wiL0OuMciko", log: "https://dps.report/B4sJ-20220523-222859_dei" }],
+        records: [
+          {
+            raiders: 4,
+            image: DEIMOS4MEN,
+            video: "https://youtu.be/CvOYoUnO5ec",
+            log: "https://dps.report/ResJ-20240803-005403_dei",
+            isNew: true,
+          },
+          { raiders: 5, image: Deimos5MEN, video: "https://youtu.be/wiL0OuMciko", log: "https://dps.report/B4sJ-20220523-222859_dei" },
+        ],
       },
     ],
     fullWing: [

@@ -3,6 +3,14 @@ import { EODStrike, IBSStrike, SOTOStrike, Screen1, WING1, WING2, WING3, WING4, 
 export const newsData: INews[] = [
   {
     type: "Record",
+    title: "Wing 4",
+    text: "Deimos 4 Men in 6:04",
+    image: WING4,
+    date: new Date(2024, 7, 19),
+    recordName: "4",
+  },
+  {
+    type: "Record",
     title: "Wing 1",
     text: "Gorseval 4 Men with no heal in 3:45",
     image: WING1,
