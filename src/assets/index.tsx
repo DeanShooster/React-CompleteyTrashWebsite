@@ -70,6 +70,8 @@ export { default as Nerd } from "./images/members/Nerdcore.webp";
 export { default as Vertox } from "./images/members/Vertox.webp";
 export { default as Broc } from "./images/members/Broc.webp";
 export { default as Verone } from "./images/members/Verone.webp";
+export { default as Khen } from "./images/members/Khen.webp";
+export { default as Ollie } from "./images/members/Ollie.webp";
 
 // Wing Records Thumbnails
 export { default as W15MEN } from "./images/thumbnails/w1 5 men.jpg";
@@ -151,3 +153,4 @@ export { default as SH3MEN } from "./images/thumbnails/SH3MEN.jpg";
 export { default as VG4MENV3 } from "./images/thumbnails/VG4MENV3.jpg";
 export { default as GORSE4MENV3 } from "./images/thumbnails/GORSE4MENV3.jpg";
 export { default as DEIMOS4MEN } from "./images/thumbnails/DEIMOS4MEN.jpg";
+export { default as TWINS5MENV2 } from "./images/thumbnails/TWINS5MEN.jpg";

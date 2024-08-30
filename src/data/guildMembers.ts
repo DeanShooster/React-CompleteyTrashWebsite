@@ -1,4 +1,4 @@
-import { Dean, Draz, Kylio, Moon, Nerd, Stein, Verone, Vertox } from "../assets";
+import { Dean, Draz, Khen, Kylio, Moon, Nerd, Ollie, Stein, Verone, Vertox } from "../assets";
 
 export const guildMembers: IMember[] = [
   {
@@ -48,6 +48,18 @@ export const guildMembers: IMember[] = [
     accountName: "Verone.7652",
     image: Verone,
     info: "Ara Ara",
+  },
+  {
+    name: "Ollie",
+    accountName: "OlikverKenells.8346",
+    image: Ollie,
+    info: "I sexually identify as a tryhard.",
+  },
+  {
+    name: "Khenarik",
+    accountName: "Keledon.6134",
+    image: Khen,
+    info: "Embodiment of Lust, If you are a girl DM me.",
   },
 ];
 

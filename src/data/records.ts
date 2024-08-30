@@ -78,6 +78,7 @@ import {
   VG4MENV3,
   GORSE4MENV3,
   DEIMOS4MEN,
+  TWINS5MENV2,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -511,6 +512,12 @@ export const wingRecordsData: IWingDataRecords[] = [
       {
         name: Twins,
         records: [
+          {
+            raiders: 5,
+            image: TWINS5MENV2,
+            video: "https://youtu.be/CqHBdKIqk8s",
+            log: "https://dps.report/6UjL-20240815-175346_twins",
+          },
           {
             raiders: 5,
             image: TWINS5MEN,
