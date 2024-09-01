@@ -5,7 +5,7 @@ export const guildMembers: IMember[] = [
     name: "Dean",
     accountName: "Dean.3056",
     image: Dean,
-    info: "cT guild leader. Mentally unstable so be cautious when you approach. Loves to get naked when possible and wrestling in the mud butt naked.",
+    info: "Mentally unstable so be cautious when you approach. Loves to get naked when possible and wrestling in the mud with the boys.",
   },
   {
     name: "Moon",

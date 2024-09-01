@@ -4,7 +4,7 @@ export const seeking: string[] = [
   "Basic gear, this means at least ascended in all your raid specs.",
   "Open mind to new specs, roles and tactic that differ from your comfort zone. Example: Learning a new spec from scratch.",
   "Lowmen Team: High attendance while being active in a project ( 3 times a week ) otherwise your schedule is open.",
-  "Competitive/FC Team: High attendance ( Once a week unless a future competition is declared ).",
+  "Competitive/FC Team: High attendance ( Once a week unless a competition is declared ).",
 ];
 
 export const trialSubTitle = "The goal of the trial run is for both parties to get familiar with each other and to understand if there is a good fit both ways.";

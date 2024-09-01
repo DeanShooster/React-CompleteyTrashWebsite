@@ -10,8 +10,8 @@ export const GuildBackground = () => {
             <b>Completely Trash</b> is a hardcore PvE (Raids/Strikes) guild in Guild Wars 2
           </p>
           <p>
-            [cT] was formed with the purpose of mastering/optimizing strikes and raids. We are relatively new compared to the veteran hardcore guilds but we are building our
-            own thing.
+            [cT] was formed with the purpose of mastering/optimizing strikes and raids. We are relatively new compared to the veteran hardcore guilds but we have built our own
+            thing.
           </p>
         </div>
       </div>
@@ -23,8 +23,8 @@ export const GuildBackground = () => {
           specific raid/strike boss trainings.
         </p>
         <p>
-          We participate in competitive events such as the <a href="https://gw2raidleague.com/">Raid League</a> for fun and records kill in{" "}
-          <a href="https://www.speedrun.com/gw2">Speed Clear.</a>
+          We participate in competitive events such as the <a href="https://gw2raidleague.com/">Raid League</a> or{" "}
+          <a href="https://hardstuck.gg/gw2/raid-rankings">Hard Stuck Live Competitions</a> for fun and records kill in <a href="https://www.speedrun.com/gw2">Speed Clear.</a>
         </p>
       </div>
     </div>

@@ -202,22 +202,21 @@ export const wingRecordsData: IWingDataRecords[] = [
           },
           {
             raiders: 3,
-            image: VG3MENV2,
-            video: "https://youtu.be/BG7f6EIa1Rk",
-            log: "https://dps.report/PAV9-20231229-220210_vg",
-          },
-          {
-            raiders: 3,
             image: VG3MEN,
             video: "https://youtu.be/5xnYcXLNsQY",
             log: "https://dps.report/l72n-20230914-005152_vg",
+          },
+          {
+            raiders: 3,
+            image: VG3MENV2,
+            video: "https://youtu.be/BG7f6EIa1Rk",
+            log: "https://dps.report/PAV9-20231229-220210_vg",
           },
           {
             raiders: 4,
             image: VG4MENV3,
             video: "https://youtu.be/UPJTlMZ-igw",
             log: "https://dps.report/RoqH-20240811-183835_vg",
-            isNew: true,
           },
           {
             raiders: 4,
@@ -225,7 +224,6 @@ export const wingRecordsData: IWingDataRecords[] = [
             video: "https://youtu.be/62QaCs9BsfM",
             log: "https://dps.report/UY8U-20230913-234451_vg",
           },
-          { raiders: 4, image: VG4MEN, video: "https://youtu.be/_pqnqEj_2wU", log: "https://dps.report/Yei7-20220321-224439_vg" },
         ],
       },
       {
@@ -240,7 +238,6 @@ export const wingRecordsData: IWingDataRecords[] = [
             image: GORSE4MENV3,
             video: "https://youtu.be/iYRtIXnj5Po",
             log: "https://dps.report/2ZyS-20240811-193618_gors",
-            isNew: true,
           },
           {
             raiders: 4,
@@ -400,9 +397,7 @@ export const wingRecordsData: IWingDataRecords[] = [
             image: DEIMOS4MEN,
             video: "https://youtu.be/CvOYoUnO5ec",
             log: "https://dps.report/ResJ-20240803-005403_dei",
-            isNew: true,
           },
-          { raiders: 5, image: Deimos5MEN, video: "https://youtu.be/wiL0OuMciko", log: "https://dps.report/B4sJ-20220523-222859_dei" },
         ],
       },
     ],
@@ -517,6 +512,7 @@ export const wingRecordsData: IWingDataRecords[] = [
             image: TWINS5MENV2,
             video: "https://youtu.be/CqHBdKIqk8s",
             log: "https://dps.report/6UjL-20240815-175346_twins",
+            isNew: true,
           },
           {
             raiders: 5,
