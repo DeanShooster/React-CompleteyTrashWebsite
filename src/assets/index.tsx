@@ -30,6 +30,8 @@ export { default as FilledStar } from "./svg/FilledStar.svg";
 export { default as ArrowCircleRight } from "./svg/ArrowCircleRight.svg";
 export { default as ArrowCircleLeft } from "./svg/ArrowCircleLeft.svg";
 export { default as NewBadge } from "./svg/NewBadge.svg";
+export { default as OrangeExclamation } from "./svg/OrangeExclamation.svg";
+export { default as ArrowRight } from "./svg/Arrow.svg";
 
 // Backgrounds
 export { default as HomePageBG } from "./images/homepageBG.jpg";
@@ -72,6 +74,10 @@ export { default as Broc } from "./images/members/Broc.webp";
 export { default as Verone } from "./images/members/Verone.webp";
 export { default as Khen } from "./images/members/Khen.webp";
 export { default as Ollie } from "./images/members/Ollie.webp";
+export { default as Syndikat } from "./images/members/Syndikat.webp";
+export { default as Nomu } from "./images/members/Nomu.webp";
+export { default as Rik } from "./images/members/Rik.webp";
+export { default as Alex } from "./images/members/Alex.webp";
 
 // Wing Records Thumbnails
 export { default as W15MEN } from "./images/thumbnails/w1 5 men.jpg";

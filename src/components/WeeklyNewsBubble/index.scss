@@ -1,29 +1,73 @@
 @import "../../styles/global.scss";
 
 .weekly-news-bubble {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  @include absoluteCenter;
   z-index: 1000;
-  @include button;
-  padding: 8px;
-  border-radius: 0 15px 0 0;
-  background-color: black;
-  animation: size-up linear infinite 1.5s;
 
-  span {
-    font-size: 20px;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.85);
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  row-gap: 16px;
+
+  & > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    column-gap: 10px;
+
+    img {
+      width: 50px;
+
+      @media (max-width: $mobile) {
+        width: 35px;
+      }
+    }
+
+    h1 {
+      margin: 0;
+
+      letter-spacing: 1px;
+      word-spacing: 5px;
+      white-space: nowrap;
+
+      @media (max-width: $mobile) {
+        font-size: 22px;
+      }
+    }
+  }
+
+  & > img {
+    width: 100%;
+    max-height: 400px;
+
+    @media (max-width: $mobile) {
+      max-height: 250px;
+    }
+  }
+
+  .arrow-juggle {
+    animation: juggle 1s linear infinite;
+    @media (max-width: $mobile) {
+      width: 35px;
+    }
+  }
+
+  button {
+    @include button;
   }
 }
 
-@keyframes size-up {
-  0% {
-    transform: scale(1);
+@keyframes juggle {
+  25% {
+    transform: translateX(-25%);
   }
-  50% {
-    transform: scale(1.05);
-  }
-  100% {
-    transform: scale(1);
+  75% {
+    transform: translateX(25%);
   }
 }

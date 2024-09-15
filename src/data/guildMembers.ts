@@ -1,4 +1,4 @@
-import { Dean, Draz, Khen, Kylio, Moon, Nerd, Ollie, Stein, Verone, Vertox } from "../assets";
+import { Alex, Dean, Draz, Khen, Kylio, Moon, Nerd, Nomu, Ollie, Rik, Stein, Syndikat, Verone, Vertox } from "../assets";
 
 export const guildMembers: IMember[] = [
   {
@@ -60,6 +60,30 @@ export const guildMembers: IMember[] = [
     accountName: "Keledon.6134",
     image: Khen,
     info: "Embodiment of Lust, If you are a girl DM me.",
+  },
+  {
+    name: "Syndikat",
+    accountName: "Syndikat.3178",
+    image: Syndikat,
+    info: "I don’t think of myself as an ugly person, I think of myself as a beautiful monkey.",
+  },
+  {
+    name: "Alex",
+    accountName: "Ssalg.1205",
+    image: Alex,
+    info: "I'm a legendary pokemon",
+  },
+  {
+    name: "Rik",
+    accountName: "rikje.8315",
+    image: Rik,
+    info: "Warrior main who knows how to wield a big sword. Bladesworn aficionado and action camera enthusiast.",
+  },
+  {
+    name: "Nomu",
+    accountName: "Nomuri.5849",
+    image: Nomu,
+    info: "Please don't put me as lead again uwu.",
   },
 ];
 

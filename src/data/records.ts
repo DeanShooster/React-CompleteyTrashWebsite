@@ -512,7 +512,6 @@ export const wingRecordsData: IWingDataRecords[] = [
             image: TWINS5MENV2,
             video: "https://youtu.be/CqHBdKIqk8s",
             log: "https://dps.report/6UjL-20240815-175346_twins",
-            isNew: true,
           },
           {
             raiders: 5,
