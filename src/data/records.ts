@@ -281,6 +281,7 @@ export const wingRecordsData: IWingDataRecords[] = [
         image: W15MENV2,
         video: "https://youtu.be/0RVlLmw6bEs",
         reddit: "https://www.reddit.com/r/Guildwars2/comments/1fy41l9/wing_1_5_men_by_completely_trash_ct/",
+        isNew: true,
       },
       {
         raiders: 5,
