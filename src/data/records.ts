@@ -79,6 +79,7 @@ import {
   GORSE4MENV3,
   DEIMOS4MEN,
   TWINS5MENV2,
+  W15MENV2,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -275,6 +276,12 @@ export const wingRecordsData: IWingDataRecords[] = [
       },
     ],
     fullWing: [
+      {
+        raiders: 5,
+        image: W15MENV2,
+        video: "https://youtu.be/0RVlLmw6bEs",
+        reddit: "https://www.reddit.com/r/Guildwars2/comments/1fy41l9/wing_1_5_men_by_completely_trash_ct/",
+      },
       {
         raiders: 5,
         image: W15MEN,

@@ -160,3 +160,4 @@ export { default as VG4MENV3 } from "./images/thumbnails/VG4MENV3.jpg";
 export { default as GORSE4MENV3 } from "./images/thumbnails/GORSE4MENV3.jpg";
 export { default as DEIMOS4MEN } from "./images/thumbnails/DEIMOS4MEN.jpg";
 export { default as TWINS5MENV2 } from "./images/thumbnails/TWINS5MEN.jpg";
+export { default as W15MENV2 } from "./images/thumbnails/W15MENV2.jpg";

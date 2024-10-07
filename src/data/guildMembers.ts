@@ -56,16 +56,16 @@ export const guildMembers: IMember[] = [
     info: "I sexually identify as a tryhard.",
   },
   {
-    name: "Khenarik",
-    accountName: "Keledon.6134",
-    image: Khen,
-    info: "Embodiment of Lust, If you are a girl DM me.",
-  },
-  {
     name: "Syndikat",
     accountName: "Syndikat.3178",
     image: Syndikat,
     info: "I don’t think of myself as an ugly person, I think of myself as a beautiful monkey.",
+  },
+  {
+    name: "Khenarik",
+    accountName: "Keledon.6134",
+    image: Khen,
+    info: "Embodiment of Lust, If you are a girl DM me.",
   },
   {
     name: "Alex",
