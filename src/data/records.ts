@@ -80,6 +80,7 @@ import {
   DEIMOS4MEN,
   TWINS5MENV2,
   W15MENV2,
+  MATTHIAS4MEN,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -311,7 +312,15 @@ export const wingRecordsData: IWingDataRecords[] = [
       },
       {
         name: Mathias,
-        records: [],
+        records: [
+          {
+            raiders: 4,
+            image: MATTHIAS4MEN,
+            video: "https://youtu.be/En4IDrNNK-E",
+            log: "https://dps.report/PfUw-20240928-213440_matt",
+            isNew: true,
+          },
+        ],
       },
     ],
     fullWing: [

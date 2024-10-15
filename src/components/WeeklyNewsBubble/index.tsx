@@ -5,7 +5,7 @@ import { ctNews } from "../../constants/general";
 import { newsData } from "../../data/news";
 
 import "./index.scss";
-import { ArrowRight, OrangeExclamation, Screen1, WING1, WING2, WING3, WING4, WING5, WING6, WING7 } from "../../assets";
+import { ArrowRight, OrangeExclamation } from "../../assets";
 import { BackgroundWall } from "../BackgroundWall";
 
 export const WeeklyNewsBubble = () => {
@@ -26,39 +26,6 @@ export const WeeklyNewsBubble = () => {
     navigate(newsPage);
   };
 
-  const screenImage = [
-    {
-      title: "Wing 1",
-      image: WING1,
-    },
-    {
-      title: "Wing 2",
-      image: WING2,
-    },
-    {
-      title: "Wing 3",
-      image: WING3,
-    },
-    {
-      title: "Wing 4",
-      image: WING4,
-    },
-    {
-      title: "Wing 5",
-      image: WING5,
-    },
-    {
-      title: "Wing 6",
-      image: WING6,
-    },
-    {
-      title: "Wing 7",
-      image: WING7,
-    },
-  ];
-
-  const screen = screenImage.find((el) => el.title === localStorage.getItem(ctNews))?.image;
-
   return (
     <>
       {showBubble ? (
@@ -70,7 +37,7 @@ export const WeeklyNewsBubble = () => {
               <h1>Something New</h1>
               <img alt="" src={OrangeExclamation} />
             </div>
-            <img alt="" src={screen ? screen : Screen1} />
+            <img alt="" src={newsData[0]?.image} />
             <div>
               <img alt="" src={ArrowRight} className="arrow-juggle" />
               <button onClick={readNewsHandler}>News Page</button>
