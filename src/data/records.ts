@@ -81,6 +81,7 @@ import {
   TWINS5MENV2,
   W15MENV2,
   MATTHIAS4MEN,
+  SAMA3MEN,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -318,7 +319,6 @@ export const wingRecordsData: IWingDataRecords[] = [
             image: MATTHIAS4MEN,
             video: "https://youtu.be/En4IDrNNK-E",
             log: "https://dps.report/PfUw-20240928-213440_matt",
-            isNew: true,
           },
         ],
       },
@@ -392,6 +392,14 @@ export const wingRecordsData: IWingDataRecords[] = [
       {
         name: Sama,
         records: [
+          {
+            raiders: 3,
+            image: SAMA3MEN,
+            video: "https://youtu.be/yC-WHm_VQxo",
+            log: "https://dps.report/u8Uw-20241012-221238_sam",
+            reddit: "https://www.reddit.com/r/Guildwars2/comments/1gaykem/samarog_3_men_by_completely_trash_ct/",
+            isNew: true,
+          },
           {
             raiders: 4,
             image: Samarog4MENV2,
