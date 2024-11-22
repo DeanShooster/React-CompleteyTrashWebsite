@@ -50,6 +50,7 @@ export { default as WING4 } from "./images/wings/wing 4 bg.jpg";
 export { default as WING5 } from "./images/wings/wing 5 bg.jpg";
 export { default as WING6 } from "./images/wings/wing 6 bg.jpg";
 export { default as WING7 } from "./images/wings/wing 7 bg.jpg";
+export { default as WING8 } from "./images/wings/wing 8 bg.png";
 
 // Fractals
 export { default as MAMA } from "./images/fractals/mama.jpg";

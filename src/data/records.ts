@@ -3,7 +3,6 @@ import {
   Adina4MEN,
   BS3MEN,
   Cairn2MEN,
-  Deimos5MEN,
   Gorse4MEN,
   Gorse4MENV2,
   Gorse5MEN,
@@ -17,7 +16,6 @@ import {
   Sabir5MENV2,
   Samarog4MEN,
   Statues2MEN,
-  VG4MEN,
   W15MEN,
   W45MEN,
   WoJ3MEN,
@@ -90,7 +88,8 @@ export const w1 = "Spirit Vale",
   w4 = "Bastion of the Penitent",
   w5 = "Hall of Chains",
   w6 = "Mythwright Gambit",
-  w7 = "Key of Ahdashim";
+  w7 = "Key of Ahdashim",
+  w8 = "Mount Balrior";
 
 const VG = "Vale Guardian",
   SpiritWoods = "Spirit Woods",
@@ -117,6 +116,9 @@ const CA = "Conjured Amalgamate",
 const Adina = "Cardinal Adina",
   Sabir = "Cardinal Sabir",
   QTP = "Qadim The Peerless";
+const Greer = "Greer The Blightbringer",
+  Decima = "Decima The Stormsinger",
+  Ura = "Ura The Steamshrieker";
 
 export const IBS = "IBS Strikes",
   EOD = "EOD Strikes",
@@ -172,6 +174,11 @@ export const encounter: IEncounter[] = [
     name: "wing-7",
     wingName: w7,
     bosses: [Adina, Sabir, QTP],
+  },
+  {
+    name: "wing-8",
+    wingName: w8,
+    bosses: [Greer, Decima, Ura],
   },
   {
     name: "IBS Strikes",
@@ -283,7 +290,6 @@ export const wingRecordsData: IWingDataRecords[] = [
         image: W15MENV2,
         video: "https://youtu.be/0RVlLmw6bEs",
         reddit: "https://www.reddit.com/r/Guildwars2/comments/1fy41l9/wing_1_5_men_by_completely_trash_ct/",
-        isNew: true,
       },
       {
         raiders: 5,
@@ -398,7 +404,6 @@ export const wingRecordsData: IWingDataRecords[] = [
             video: "https://youtu.be/yC-WHm_VQxo",
             log: "https://dps.report/u8Uw-20241012-221238_sam",
             reddit: "https://www.reddit.com/r/Guildwars2/comments/1gaykem/samarog_3_men_by_completely_trash_ct/",
-            isNew: true,
           },
           {
             raiders: 4,
@@ -660,6 +665,24 @@ export const wingRecordsData: IWingDataRecords[] = [
         reddit: "https://www.reddit.com/r/Guildwars2/comments/183hedx/wing_7_5_men_by_completely_trash_ct/",
       },
     ],
+  },
+  {
+    name: w8,
+    bosses: [
+      {
+        name: Greer,
+        records: [],
+      },
+      {
+        name: Decima,
+        records: [],
+      },
+      {
+        name: Ura,
+        records: [],
+      },
+    ],
+    fullWing: [],
   },
   {
     name: IBS,

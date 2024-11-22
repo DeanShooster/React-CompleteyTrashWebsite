@@ -1,6 +1,13 @@
-import { EODStrike, IBSStrike, SOTOStrike, Screen1, WING1, WING2, WING3, WING4, WING5, WING6, WING7 } from "../assets";
+import { EODStrike, IBSStrike, SOTOStrike, Screen1, WING1, WING2, WING3, WING4, WING5, WING6, WING7, WING8 } from "../assets";
 
 export const newsData: INews[] = [
+  {
+    type: "Update",
+    title: "Wing 8",
+    text: "Added Wing 8 to records page.",
+    image: WING8,
+    date: new Date(2024, 11, 20),
+  },
   {
     type: "Record",
     title: "Wing 4",

@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import { useLocation } from "react-router";
 import { useTitle } from "../../hooks/useTitle";
 import { recordTarget, recordsPage } from "../../constants/routing";
-import { EOD, IBS, SOTO, w1, w2, w3, w4, w5, w6, w7 } from "../../data/records";
+import { EOD, IBS, SOTO, w1, w2, w3, w4, w5, w6, w7, w8 } from "../../data/records";
 
 import { WingStrikeScreen } from "./WingScreen";
 import { WingStrikeRecords } from "./WingRecords";
@@ -58,6 +58,10 @@ export const Records = () => {
       }
       case "7": {
         setWingStrikeRecords(w7);
+        break;
+      }
+      case "8": {
+        setWingStrikeRecords(w8);
         break;
       }
       case "IBS": {
