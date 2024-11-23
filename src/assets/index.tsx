@@ -67,16 +67,11 @@ export { default as FRACTAL } from "./images/fractals/fractal.jpg";
 export { default as Dean } from "./images/members/Dean.webp";
 export { default as Moon } from "./images/members/Moon.webp";
 export { default as Kylio } from "./images/members/Kylio.webp";
-export { default as Draz } from "./images/members/Draz.webp";
 export { default as Stein } from "./images/members/Stein.webp";
-export { default as Nerd } from "./images/members/Nerdcore.webp";
 export { default as Vertox } from "./images/members/Vertox.webp";
-export { default as Broc } from "./images/members/Broc.webp";
 export { default as Verone } from "./images/members/Verone.webp";
 export { default as Khen } from "./images/members/Khen.webp";
-export { default as Ollie } from "./images/members/Ollie.webp";
 export { default as Syndikat } from "./images/members/Syndikat.webp";
-export { default as Nomu } from "./images/members/Nomu.webp";
 export { default as Rik } from "./images/members/Rik.webp";
 export { default as Alex } from "./images/members/Alex.webp";
 

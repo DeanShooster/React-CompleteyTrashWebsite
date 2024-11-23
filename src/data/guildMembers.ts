@@ -1,4 +1,4 @@
-import { Alex, Dean, Draz, Khen, Kylio, Moon, Nerd, Nomu, Ollie, Rik, Stein, Syndikat, Verone, Vertox } from "../assets";
+import { Alex, Dean, Khen, Kylio, Moon, Rik, Stein, Syndikat, Verone, Vertox } from "../assets";
 
 export const guildMembers: IMember[] = [
   {
@@ -20,22 +20,10 @@ export const guildMembers: IMember[] = [
     info: "I could not think of anything clever to say :( because I'm empty inside.",
   },
   {
-    name: "Draz",
-    accountName: "onepiece.2874",
-    image: Draz,
-    info: "Low FPS and high loading time gamer that still tries to be good and enjoy hard content while listening to death metal.",
-  },
-  {
     name: "Stein",
     accountName: "Steiner.8365",
     image: Stein,
     info: "4 digit ping enjoyer because im too poor to afford stable internet.",
-  },
-  {
-    name: "Nerdcore",
-    accountName: "Seilies.1759",
-    image: Nerd,
-    info: "Hardest part of joining a static is to write an introduction: Albert Einstein.",
   },
   {
     name: "Vertox",
@@ -48,12 +36,6 @@ export const guildMembers: IMember[] = [
     accountName: "Verone.7652",
     image: Verone,
     info: "Ara Ara",
-  },
-  {
-    name: "Ollie",
-    accountName: "OlikverKenells.8346",
-    image: Ollie,
-    info: "I sexually identify as a tryhard.",
   },
   {
     name: "Syndikat",
@@ -78,12 +60,6 @@ export const guildMembers: IMember[] = [
     accountName: "rikje.8315",
     image: Rik,
     info: "Warrior main who knows how to wield a big sword. Bladesworn aficionado and action camera enthusiast.",
-  },
-  {
-    name: "Nomu",
-    accountName: "Nomuri.5849",
-    image: Nomu,
-    info: "Please don't put me as lead again uwu.",
   },
 ];
 
