@@ -80,6 +80,7 @@ import {
   W15MENV2,
   MATTHIAS4MEN,
   SAMA3MEN,
+  QADIM5MEN,
 } from "../assets";
 
 export const w1 = "Spirit Vale",
@@ -553,7 +554,15 @@ export const wingRecordsData: IWingDataRecords[] = [
       },
       {
         name: Qadim,
-        records: [],
+        records: [
+          {
+            raiders: 5,
+            image: QADIM5MEN,
+            video: "https://youtu.be/_N5S0hQGwWw",
+            log: "https://dps.report/s0Bo-20241125-231707_qadim",
+            isNew: true,
+          },
+        ],
       },
     ],
     fullWing: [
