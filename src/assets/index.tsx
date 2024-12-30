@@ -71,7 +71,6 @@ export { default as Stein } from "./images/members/Stein.webp";
 export { default as Vertox } from "./images/members/Vertox.webp";
 export { default as Verone } from "./images/members/Verone.webp";
 export { default as Khen } from "./images/members/Khen.webp";
-export { default as Syndikat } from "./images/members/Syndikat.webp";
 export { default as Rik } from "./images/members/Rik.webp";
 export { default as Alex } from "./images/members/Alex.webp";
 

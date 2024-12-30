@@ -1,4 +1,4 @@
-import { Alex, Dean, Khen, Kylio, Moon, Rik, Stein, Syndikat, Verone, Vertox } from "../assets";
+import { Alex, Dean, Khen, Kylio, Moon, Rik, Stein, Verone, Vertox } from "../assets";
 
 export const guildMembers: IMember[] = [
   {
@@ -36,12 +36,6 @@ export const guildMembers: IMember[] = [
     accountName: "Verone.7652",
     image: Verone,
     info: "Ara Ara",
-  },
-  {
-    name: "Syndikat",
-    accountName: "Syndikat.3178",
-    image: Syndikat,
-    info: "I don’t think of myself as an ugly person, I think of myself as a beautiful monkey.",
   },
   {
     name: "Khenarik",
